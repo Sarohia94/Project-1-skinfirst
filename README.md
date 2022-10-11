@@ -58,16 +58,16 @@ The skinfirst website is designed to promote skin wellness to its visitors. The 
 ## User Experience (UX)
 ### Initial Discussion
 
-The skinfirst website aims to provide users with an informative guide focussing on the importance of skin wellness and a good routine. The website will provide users with information regarding other factors to consider to aid skin wellness as well as certifications to watch out for from accredited organisations on products which endorse a positive environmental and social impact.
+The skinfirst website aims to provide users with an informative guide focussing on the importance of skin wellness and a good routine. The website will provide users with information regarding other factors to consider to aid skin wellness. It will also detail certifications to watch out for from accredited organisations on products which endorse a positive environmental and social impact.
 
 #### Key information for the site
 
-* What's the website about.
+* What the website is about.
 * Suggestive guide for a Morning & Night routine.
-* Other factors to consider for a positive impact on skin wellness.
+* Other factors to consider to promote skin wellness.
 * Certifications to look out for on products.
 * How to sign up and get involved.
-* A way for people to contact to share their routines and tips.
+* A way for people to get in contact to share their routines and tips.
 
 ### User Stories
 
@@ -82,12 +82,12 @@ The skinfirst website aims to provide users with an informative guide focussing 
 
 * I want to find out what skinfirst is all about and what I can learn about skin wellness.
 * I want to be able to navigate the site easily to find information.
-* I want to be able to take away useful information that I can apply in my day to day.
+* I want to be able to take away useful information that I can apply in my day to day life.
 
 #### Returning Visitor Goals
 
 * I want to find further, up to date information regarding skin wellness.
-* I want to be able to contact and interact with skinfirst with questions and feedback.
+* I want to be able to contact and interact with skinfirst with questions and comments.
 
 #### Frequent Visitor Goals
 
@@ -96,3 +96,8 @@ The skinfirst website aims to provide users with an informative guide focussing 
 - - -
 
 ## Design
+#### Colour Scheme
+
+#### Typography
+
+#### Imagery
