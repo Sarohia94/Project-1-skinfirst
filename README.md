@@ -113,3 +113,13 @@ Google Fonts were used as below
 
 Images used are clean and natural to fit the theme and intention of the website. 
 
+### Wireframes
+
+Wireframes were created for destop/tablet and mobile.
+
+* Home page wireframe can be found here for [desktop/tablet](docs/wireframes/skinfirstdesktop.png) and here for [mobile](docs/wireframes/skinfirstmobile.png).
+
+* Guide page wireframe can be found here for [desktop/tablet](docs/wireframes/guidedesktop.png) and here for [mobile](docs/wireframes/guidemobile.png).
+
+* Sign Up page wireframe can be found here for [desktop/tablet](docs/wireframes/signupdesktop.png) and here for [mobile](docs/wireframes/signupmobile.png).
+
