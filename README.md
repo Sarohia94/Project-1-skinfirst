@@ -96,8 +96,18 @@ The skinfirst website aims to provide users with an informative guide focussing 
 - - -
 
 ## Design
-#### Colour Scheme
+### Colour Scheme
+![Colour palette for the skinfirst website](docs/colourpalette.png)
 
-#### Typography
+This was obtained from the [Coolors](https://coolors.co/) website.
 
-#### Imagery
+### Typography
+
+Google Fonts were used as below
+
+* Alkalami is used for the headings. 
+
+* Lato is used for the body of the text. It is a sans-serif font.
+
+### Imagery
+
