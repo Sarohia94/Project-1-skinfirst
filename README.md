@@ -112,3 +112,4 @@ Google Fonts were used as below
 ### Imagery
 
 Images used are clean and natural to fit the theme and intention of the website. 
+
