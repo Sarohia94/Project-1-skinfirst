@@ -29,11 +29,8 @@ The skinfirst website is designed to promote skin wellness to its visitors. The 
   * [Languages Used](#Languages-Used)
   * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 
-* [Deployment & Local Development](#Deployment-&-Local-Development)
-  * [Deployment](#Deployment)
-  * [Local Development](#Local-Development)
-    * [How to Fork](#How-to-Fork)
-    * [How to Clone](#How-to-Clone)
+* [Deployment](#Deployment)
+  * [GitHub Pages](#GitHub-Pages)
 
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
@@ -170,5 +167,19 @@ The website acheives accessibility with:
 * Hover.css - to float the nav bar links.
 
 ---
+
+## Deployment 
+### GitHub Pages
+The website was deployed to GitHub Pages as follows:
+1. Log in to GitHub
+2. Click on the "Settings" link for this Repository
+3. Click on the "Pages" link on the left hand side of the page
+4. Under "Source" select "Deploy from branch" from the dropdown
+5. Under "Branch" select "main" from the dropdown
+6. Click "Save" which will then refresh the page
+7. It might take a few mins before you can refresh and view the link to the site published
+
+---
+
 
 
