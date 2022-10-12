@@ -25,5 +25,36 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 400%;
+}
+
+/* Navigation bar */
+#nav {
+    font-size: 150%;
+    float: right;
+}
+
+#nav, #logo {
+    line-height: 100px;
+}
+
+#nav li {
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #6a3929;
+}
+
+#nav a:hover {
+    border-bottom: 2px solid #6a3929;
+    font-weight: bold;
+}
+
+.active {
+    border-bottom: 2px solid #6a3929;
+    font-weight: bold;
 }
