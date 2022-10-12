@@ -145,3 +145,13 @@ Wireframes were created for destop/tablet and mobile.
 * Thank You page
   * A message thanking the user for signing up and a link to direct them back to the home page.
 
+### Accessibility 
+The website acheives accessibility with:
+* Semantic HTML
+* Alt attributes on the images
+* Information provided for screen readers where icons are used with no text
+* Colour contrast is checked and sufficient
+* Marking current page as current for screen readers
+
+---
+
