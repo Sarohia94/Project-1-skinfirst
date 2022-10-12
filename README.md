@@ -155,4 +155,20 @@ The website acheives accessibility with:
 ---
 
 ## Technologies Used
+### Languages Used
+* HTML
+* CSS
+
+### Frameworks, Libraries & Programs Used
+* Git - for version control. Using GitPod terminal to commit to Git and push to GitHub.
+* GitHub - to save and store the code pushed from Git.
+* Balsamic - to create the wireframes when designing the website.
+* Google Fonts - to import font to apply on the website.
+* Font Awesome - to add icons.
+* Dev Tools - for testing and troubleshooting .
+* Am I responsive? - to show website across a range of devices.
+* Hover.css - to float the nav bar links.
+
+---
+
 
