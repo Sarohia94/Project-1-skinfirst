@@ -181,5 +181,29 @@ The website was deployed to GitHub Pages as follows:
 
 ---
 
+## Testing 
+* Issues faced before my mid project meeting:
+  * 
+* Issues raised in my mid project meeting with my mentor:
+  * 
+* Issues faced before submitting my project for review on slack:
+  * 
+* Issues raised as part of feedback from the peer code review on slack:
+  * 
+* Final issues raised following the end project meeting with my mentor:
+
+### W3C Validator 
+
+### Solved Bugs
+
+### Known Bugs
+
+### Testing User Stories
+
+### Lighthouse
+
+### Full Testing
+
+
 
 
