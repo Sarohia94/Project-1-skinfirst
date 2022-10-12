@@ -123,3 +123,25 @@ Wireframes were created for destop/tablet and mobile.
 
 * Sign Up page wireframe can be found here for [desktop/tablet](docs/wireframes/signupdesktop.png) and here for [mobile](docs/wireframes/signupmobile.png).
 
+---
+
+## Features
+
+* Responsive on a range of device sizes
+* All pages on the website have:
+  * A navigation bar on all three pages to make it easy for the user to navigate the website. This is uniform across all pages consisting of the logo to the left and the links to the home, guide and sign up pages to the right.
+  * A footer centered at the bottom of all three pages with icon links to social media; Twitter, Facebook, Instagram & Youtube. The links open on to a new tab so the user does not leave the skinfirst website. As the intention for the website is to build a community the social media links are important to encourage interaction. 
+* Home page
+  * About us section will provide information to the user about the purpose of the website and what they can expect to learn.
+  * Image of smiling woman (to the right on desktop/tablet and stacked on top on mobile) is used to set a warm, natural and welcoming aesthetic to the website. It also sets the tone on the feeling the website aims to inspire when visiting and thinking about skin wellness.
+* Guide page
+  * Morning and night routine section. This section will provide the user with a guide of routines they can follow for skin wellness and its benefits.
+  * Other factors section. This will provide the user with other factors to consider such as lifestyle changes to promote skin wellness.
+  * Responsible buying section. This will provide information to the user on what to look out for when purchasing products. This is to promote users into thinking about their purchasing power. This goes hand in hand in the postive thinking the website aims to inspire with skin wellness. As such, this section aims to further this with the consideration of enviornmental and societal impact.
+* Sign Up page
+  * Reasons on why the user will want to sign up.
+  * A sign up form, which will require the user submit their full name and email address.
+  * The sign up form will also have a text box where the user can submit a query, comment or feedback.
+* Thank You page
+  * A message thanking the user for signing up and a link to direct them back to the home page.
+
