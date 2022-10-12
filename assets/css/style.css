@@ -1,7 +1,16 @@
 /* Google Font @import URL */
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Lato:wght@300&display=swap')
 
-/* Body */
+/* Convention setting margin, padding and border for all elements to zero */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Body styling*/
 body {
     font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
+
