@@ -8,9 +8,22 @@
     border: none;
 }
 
-/* Body styling*/
+/* Body */
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    color: #1a110e;
 }
 
+/* Logo and headings */
+
+h1, h2 {
+    font-family: 'Alkalami', serif;
+    font-weight: 800;
+    color: #af9e42;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
