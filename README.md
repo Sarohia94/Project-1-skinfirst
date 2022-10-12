@@ -97,9 +97,8 @@ The skinfirst website aims to provide users with an informative guide focussing 
 
 ## Design
 ### Colour Scheme
-![Colour palette for the skinfirst website](docs/colourpalette.png)
-
 This was obtained from the [Coolors](https://coolors.co/) website.
+![Colour palette for the skinfirst website](docs/colourpalette.png)
 
 ### Typography
 
@@ -154,4 +153,6 @@ The website acheives accessibility with:
 * Marking current page as current for screen readers
 
 ---
+
+## Technologies Used
 
