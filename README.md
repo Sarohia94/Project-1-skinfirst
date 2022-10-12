@@ -204,6 +204,23 @@ The website was deployed to GitHub Pages as follows:
 
 ### Full Testing
 
+---
 
+## Credits
+
+### Code
+
+### Content
+* The content was written by the developer Amritpreet Sarohia
+* Icons used were taken from [Font Awesome](https://fontawesome.com/)
+* Layout and structure of the README.md file was sampled from [Kera Cudmore's](https://github.com/kera-cudmore) template
+
+### Media
+Images used were obtained from the [Pexels](https://www.pexels.com/) webiste
+
+### Acknowledgements 
+Thank you to anyone taking the time to view my first project, to the Slack community and the below individuals:
+* [Kera Cudmore](https://github.com/kera-cudmore) for her README webinar and resources provided
+* [Chris Quinn](https://github.com/10xOXR)
 
 
