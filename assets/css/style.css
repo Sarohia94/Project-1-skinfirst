@@ -77,6 +77,36 @@ h1, h2 {
         position: relative;
         clear: both;
         background-color: rgba(190,131,116,0.5);
-        padding: 0.5em 0.5em;
+        padding: 0.5em 0.25em;
     }
+}
+
+@media screen and (min-width:640px) and (max-width:1300px) {
+    #about-us {font-size: 150%;
+    }
+}
+
+/* Footer section */
+
+footer {
+    height: 150px;
+}
+
+.social-media {
+   text-align: center;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 150%;
+    padding: 7.5%;
+    color: #6a3929;
+}
+
+.social-media > i {
+    width: 100%;
+    height: auto;
 }
