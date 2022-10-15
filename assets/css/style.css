@@ -105,7 +105,6 @@ h3 {
     #landing-image > picture > source {
         max-width: 100%;
         height: auto;
-        padding: 0px 0px 0px;
     }
 
     #about-us {
@@ -149,8 +148,8 @@ footer {
 
 .social-media i {
     font-size: 150%;
-    margin: 1.5%;
-    padding: 7.5%;
+    margin: 1%;
+    padding: 5%;
     color: #6a3929;
 }
 
@@ -163,4 +162,12 @@ i:hover {
     width: 100%;
     height: auto;
     text-align: center;
+}
+
+/* Guide.html section*/
+
+/* Morning and night routine */
+#routine {
+    clear: both;
+    display: block;
 }
