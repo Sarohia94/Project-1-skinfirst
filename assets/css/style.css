@@ -90,7 +90,7 @@ h3 {
     padding-bottom: 0.5em;
 }
 
-@media screen and (min-width:622px) {
+@media screen and (min-width:745px) {
     .split {
         display: flex;
         flex-direction: row-reverse;
@@ -105,6 +105,7 @@ h3 {
     #landing-image > picture > source {
         max-width: 100%;
         height: auto;
+        padding: 0px 0px 0px;
     }
 
     #about-us {
@@ -112,13 +113,19 @@ h3 {
         width: 100%;
         height: auto;
         background-color: rgba(190,131,116,0.5);
-        font-size: 150%;
+        margin-bottom: 0px;
     }
 
     #fun-facts {
         border: #af9e42 solid 2.5px;
     }
 }
+
+@media screen and (min-width:745px) and (max-width:900px) {
+    #about-us {
+        font-size: 150%;
+    }
+}    
 
 @media screen and (max-width:900px) {
     #fun-facts {
