@@ -27,8 +27,7 @@ h3 {
     font-family: 'Alkalami', serif;
     color: #6a3929;
     text-align: left;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin: 15px 10px 5px;
 }
 
 #logo {
@@ -87,7 +86,8 @@ h3 {
 }
 
 #fun-facts > ul > li {
-    padding-bottom: 0.5em;
+    margin: 15px 10px 5px;
+    list-style: none;
 }
 
 @media screen and (min-width:745px) {
@@ -135,7 +135,7 @@ h3 {
 /* Footer section */
 footer {
     height: 150px;
-    background-color: rgba(172, 175, 174,0.5)
+    background-color: rgba(172, 175, 174,0.5);
 }
 
 .social-media {
@@ -169,5 +169,30 @@ i:hover {
 /* Morning and night routine */
 #routine {
     clear: both;
-    display: block;
+    height: 600px;
+    margin: 15px 10px 5px;
+}
+
+#routine > h2 {
+    text-align: center;
+}
+
+#routine > h3 {
+    text-align: center;
+    background-color: rgba(190,131,116,0.5);
+}
+#routine > div > ol > li {
+    list-style: none;
+}
+
+#left-night {
+    width: 33%;
+    float: left;
+    margin: 15px 10px 5px;
+}
+
+#right-morning {
+    width: 33%;
+    float: right;
+    margin: 15px 10px 5px;
 }
