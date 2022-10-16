@@ -136,6 +136,8 @@ h3 {
 footer {
     height: 150px;
     background-color: rgba(172, 175, 174,0.5);
+    position: relative;
+    clear: both;
 }
 
 .social-media {
@@ -169,6 +171,7 @@ i:hover {
 /* Morning and night routine */
 #routine {
     clear: both;
+    position: relative;
     height: 600px;
     margin: 15px 10px 5px;
 }
@@ -183,16 +186,34 @@ i:hover {
 }
 #routine > div > ol > li {
     list-style: none;
+    margin: 1.5%;
 }
 
 #left-night {
-    width: 33%;
+    width: 45%;
     float: left;
     margin: 15px 10px 5px;
 }
 
 #right-morning {
-    width: 33%;
+    width: 45%;
     float: right;
     margin: 15px 10px 5px;
+}
+
+/* Other factors and certification section*/
+
+#other-factors {
+    margin: 15px 10px 5px;
+    padding: 0.5em 0.25em;
+}
+
+#other-factors > div {
+    background-color: rgba(190,131,116,0.25);
+    width: 25%;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
