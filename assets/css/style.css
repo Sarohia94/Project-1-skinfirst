@@ -11,15 +11,20 @@
 /* Body */
 body {
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 350;
     color: #1a110e;
 }
 
 /* Logo and headings */
-
-h1, h2 {
+h1 {
     font-family: 'Alkalami', serif;
     font-weight: 800;
+    color: #af9e42;
+}
+
+h2 {
+    font-family: 'Alkalami', serif;
+    font-weight: 400;
     color: #af9e42;
 }
 
@@ -68,12 +73,16 @@ h3 {
     font-weight: bold;
 }
 
-/* Landing image & about us section */
+/* Home page */
+/* Landing image, about us section and fun facts aside */
+#container {
+    margin: 15px 10px 5px;
+}
+
 #landing-image > picture > img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
-    padding-bottom: 0.5em;
 }
 
 #about-us {
@@ -81,30 +90,26 @@ h3 {
     max-width: 100%;
     display: block;
     background-color: rgba(190,131,116,0.5);
-    padding: 0.5em 0.25em;
-    margin-bottom: 0.5em;
+    padding: 8px 4px;
 }
 
-#fun-facts > ul > li {
+#fun-facts {
+    border: #af9e42 solid 2.5px;
+}
+
+#fun-facts > aside > ul > li {
     margin: 15px 10px 5px;
     list-style: none;
 }
 
-@media screen and (min-width:745px) {
+/* Media query to show landing-image2 and about us section on a tablet screen size*/
+@media screen and (min-width:640px) {
     .split {
         display: flex;
         flex-direction: row-reverse;
         position: relative;
         clear: both;
         object-fit: fill;
-        margin: 0;
-        padding: 0;
-        border: none;
-    }
-
-    #landing-image > picture > source {
-        max-width: 100%;
-        height: auto;
     }
 
     #about-us {
@@ -112,24 +117,141 @@ h3 {
         width: 100%;
         height: auto;
         background-color: rgba(190,131,116,0.5);
-        margin-bottom: 0px;
-    }
-
-    #fun-facts {
-        border: #af9e42 solid 2.5px;
+        font-size: 150%;
     }
 }
 
-@media screen and (min-width:745px) and (max-width:900px) {
-    #about-us {
-        font-size: 150%;
-    }
-}    
-
+/* Media query to hide fun facts aside unless screen size is larger than 900px */
 @media screen and (max-width:900px) {
     #fun-facts {
         display: none;
     }
+}
+
+/* Guide page */
+/* Morning and night routine */
+#routine {
+    clear: both;
+    position: relative;
+    margin: 15px 10px 5px;
+    background-color: rgba(190,131,116,0.25);
+}
+
+#routine > h2 {
+    text-align: center;
+}
+
+#routine > h3 {
+    text-align: center;
+}
+
+#routine > div > ol > li {
+    list-style: none;
+    margin: 2px;
+}
+
+#left-night {
+    width: 45%;
+    float: left;
+    margin: 15px 10px 5px;
+    padding: 8px 4px 2px;
+    border: outset;
+}
+
+#right-morning {
+    width: 45%;
+    float: right;
+    margin: 15px 10px 5px;
+    padding: 8px 4px 2px;
+    border: outset;
+}
+
+/* Other factors section*/
+
+#other-factors {
+    margin: 15px 10px 5px;
+    padding: 0.5em 0.25em;
+    clear: both;
+    position: relative;
+}
+
+#other-factors > div {
+    background-color: rgba(190,131,116,0.25);
+    width: 25%;
+    height: fit-content;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#other-factors > div > h3 {
+    text-align: center;
+}
+
+#other-factors > div > i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: #6a3929;
+}
+
+/* Form section */
+.form {
+    clear: left;
+    background: url(../images/image3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup {
+    margin: 150px 10% 0 0;
+    color: #1a110e;
+    background-color: rgba(26,17,14,0.15);
+    max-width: 500px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    font-size: 120%;
+}
+
+.signup h1 {
+    margin-bottom: 20px;
+}
+
+legend p {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #6a3929;
+    border-radius: 2px;
+    font-size: 100%;
+}
+
+.text-input:hover {
+    border-color: #1a110e;
+}
+
+.join {
+    margin: 20px 0 20px 0;
+    border-radius: 2px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #af9e42;
+    color: #6a3929;
+    display: block;
+}
+
+.join:hover {
+    background-color: #6a3929;
+    color: #af9e42;
 }
 
 /* Footer section */
@@ -164,119 +286,4 @@ i:hover {
     width: 100%;
     height: auto;
     text-align: center;
-}
-
-/* Guide.html section*/
-
-/* Morning and night routine */
-#routine {
-    clear: both;
-    position: relative;
-    height: 600px;
-    margin: 15px 10px 5px;
-}
-
-#routine > h2 {
-    text-align: center;
-}
-
-#routine > h3 {
-    text-align: center;
-    background-color: rgba(190,131,116,0.5);
-}
-#routine > div > ol > li {
-    list-style: none;
-    margin: 1.5%;
-}
-
-#left-night {
-    width: 45%;
-    float: left;
-    margin: 15px 10px 5px;
-}
-
-#right-morning {
-    width: 45%;
-    float: right;
-    margin: 15px 10px 5px;
-}
-
-/* Other factors section*/
-
-#other-factors {
-    margin: 15px 10px 5px;
-    padding: 0.5em 0.25em;
-    clear: both;
-    position: relative;
-}
-
-#other-factors > div {
-    background-color: rgba(190,131,116,0.25);
-    width: 25%;
-    height: fit-content;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
-
-#other-factors i {
-    font-size: 150%;
-    margin: 1%;
-    padding: 5%;
-    color: #6a3929;
-}
-
-/* Form section */
-.form {
-    clear: left;
-    background: url(../images/image3.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
-
-.signup {
-    margin: 150px 10% 0 0;
-    color: #1a110e;
-    background-color: rgba(26,17,14,0.15);
-    max-width: 500px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-    font-size: 120%;
-}
-
-.signup h1 {
-    margin-bottom: 20px;
-}
-
-.text-input {
-    width: 100%;
-    height: 30px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #6a3929;
-    border-radius: 2px;
-    font-size: 100%;
-}
-
-.text-input:hover {
-    border-color: #1a110e;
-}
-
-.join {
-    margin: 20px 0 20px 0;
-    border-radius: 2px;
-    padding: 20px 30px 20px 30px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #af9e42;
-    color: #6a3929;
-    display: block;
-}
-
-.join:hover {
-    background-color: #6a3929;
-    color: #af9e42;
 }
