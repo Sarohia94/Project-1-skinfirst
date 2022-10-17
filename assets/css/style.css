@@ -74,7 +74,7 @@ h3 {
 }
 
 /* Home page */
-/* Landing image, about us section and fun facts aside */
+/* Landing image */
 #container {
     margin: 15px 10px 5px;
 }
@@ -85,6 +85,7 @@ h3 {
     display: block;
 }
 
+/* About us section */
 #about-us {
     text-align: center;
     max-width: 100%;
@@ -93,6 +94,7 @@ h3 {
     padding: 8px 4px;
 }
 
+/* fun facts aside */
 #fun-facts {
     border: #af9e42 solid 2.5px;
 }
@@ -102,7 +104,7 @@ h3 {
     list-style: none;
 }
 
-/* Media query to show landing-image2 and about us section on a tablet screen size*/
+/* Media query to show landing-image2 and about us section on a tablet screen size or larger*/
 @media screen and (min-width:640px) {
     .split {
         display: flex;
@@ -161,7 +163,7 @@ h3 {
 /* Other factors section*/
 #other-factors {
     margin: 15px 10px 5px;
-    padding: 0.5em 0.25em;
+    padding: 8px 4px;
     clear: both;
     position: relative;
 }
@@ -186,12 +188,7 @@ h3 {
     color: #6a3929;
 }
 
-/*
-.fa-glass-water:before {
-    content: "\e4f4";
-    font-size: 150%;
-} */
-
+/* Media query for diplaying the routine on screan sizes larger than 680px*/
 @media screen and (min-width:680px) {
     #left-night, #right-morning {
         width: 45%;
@@ -202,6 +199,7 @@ h3 {
     } 
 }
 
+/* Media query for diplaying the other factors section on screan sizes larger than 540px*/
 @media screen and (min-width:540px) {
     #other-factors > div {
         background-color: rgba(190,131,116,0.25);
@@ -219,6 +217,7 @@ h3 {
 .form {
     clear: left;
     background: url(../images/image3.jpg);
+    background-color: rgba(190,131,116,0.5);
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -237,6 +236,10 @@ h3 {
 
 .signup h1 {
     margin-bottom: 20px;
+}
+
+.signup > label {
+    font-weight: 400;
 }
 
 legend p {
@@ -268,6 +271,38 @@ legend p {
 }
 
 .join:hover {
+    background-color: #6a3929;
+    color: #af9e42;
+}
+
+/* Thankyou page */
+#message {
+    text-align: center;
+    position: relative;
+    clear: both;
+}
+
+#message > h3 {
+    text-align: center;
+}
+
+#message > p {
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+#return-home {
+    margin: 20px 0 20px 0;
+    border-radius: 2px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #af9e42;
+    color: #6a3929;
+    text-align: center;
+}
+
+#return-home:hover {
     background-color: #6a3929;
     color: #af9e42;
 }
