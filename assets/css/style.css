@@ -150,24 +150,15 @@ h3 {
     margin: 2px;
 }
 
-#left-night {
-    width: 45%;
-    float: left;
+#left-night, #right-morning {
+    display: block;
     margin: 15px 10px 5px;
     padding: 8px 4px 2px;
     border: outset;
-}
-
-#right-morning {
-    width: 45%;
-    float: right;
-    margin: 15px 10px 5px;
-    padding: 8px 4px 2px;
-    border: outset;
+    background-color: white;
 }
 
 /* Other factors section*/
-
 #other-factors {
     margin: 15px 10px 5px;
     padding: 0.5em 0.25em;
@@ -177,9 +168,9 @@ h3 {
 
 #other-factors > div {
     background-color: rgba(190,131,116,0.25);
-    width: 25%;
-    height: fit-content;
-    float: left;
+    width: 100%;
+    height: 150px;
+    display: block;
     padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white;
@@ -195,6 +186,29 @@ h3 {
     margin: 1%;
     padding: 5%;
     color: #6a3929;
+}
+
+@media screen and (min-width:680px) {
+    #left-night, #right-morning {
+        width: 45%;
+        float: left;
+        margin: 15px 10px 5px;
+        padding: 8px 4px 2px;
+        border: outset;
+    } 
+}
+
+@media screen and (min-width:540px) {
+    #other-factors > div {
+        background-color: rgba(190,131,116,0.25);
+        width: 25%;
+        height: 200px;
+        float: left;
+        padding: 30px 0 0 10px;
+        text-align: center;
+        border: 2px solid white;
+        box-sizing: border-box;
+    }
 }
 
 /* Form section */
