@@ -43,13 +43,13 @@ h3 {
 }
 
 /* Navigation bar */
+#nav, #logo {
+    line-height: 50px;
+}
+
 #nav {
     font-size: 100%;
     float: right;
-}
-
-#nav, #logo {
-    line-height: 50px;
 }
 
 #nav li {
@@ -224,7 +224,7 @@ h3 {
 }
 
 .signup {
-    margin: 150px 10% 0 0;
+    margin: 100px 10% 0 0;
     color: #1a110e;
     background-color: rgba(26,17,14,0.15);
     max-width: 500px;
@@ -239,7 +239,7 @@ h3 {
 }
 
 .signup > label {
-    font-weight: 400;
+    font-weight: 900;
 }
 
 legend p {
