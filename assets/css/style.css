@@ -126,11 +126,8 @@ h3 {
     clear: both;
     position: relative;
     margin: 15px 10px 5px;
+    padding-bottom: 10px;
     background-color: rgba(190,131,116,0.25);
-}
-
-#routine > h2 {
-    text-align: center;
 }
 
 #routine > h3 {
@@ -139,7 +136,8 @@ h3 {
 
 #routine > div > ol > li {
     list-style: none;
-    margin: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #left-night, #right-morning {
@@ -153,7 +151,6 @@ h3 {
 /* Other factors section*/
 #other-factors {
     margin: 15px 10px 5px;
-    padding: 8px 4px;
     clear: both;
     position: relative;
 }
@@ -189,8 +186,7 @@ h3 {
     } 
 }
 
-/* Media query for diplaying the other factors section on screan sizes larger than 540px*/
-@media screen and (min-width:540px) {
+/* Media query for diplaying the other factors section on screan sizes larger than 575px*/
     #other-factors > div {
         background-color: rgba(190,131,116,0.25);
         width: 25%;
@@ -201,7 +197,6 @@ h3 {
         border: 2px solid white;
         box-sizing: border-box;
     }
-}
 
 /* Form section */
 .form {
@@ -214,13 +209,13 @@ h3 {
 }
 
 .signup {
-    margin: 100px 10% 0 0;
+    margin: 50px 5% 0 0;
     color: #1a110e;
     background-color: rgba(26,17,14,0.15);
     max-width: 500px;
     position: absolute;
-    left: 10%;
-    padding: 30px;
+    left: 5%;
+    padding: 15px;
     font-size: 120%;
 }
 
