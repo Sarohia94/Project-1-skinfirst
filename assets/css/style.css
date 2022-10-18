@@ -92,6 +92,7 @@ h3 {
     display: block;
     background-color: rgba(190,131,116,0.5);
     padding: 8px 4px;
+    font-size: 150%;
 }
 
 /* fun facts aside */
@@ -105,7 +106,7 @@ h3 {
 }
 
 /* Media query to show landing-image2 and about us section on a tablet screen size or larger*/
-@media screen and (min-width:640px) {
+@media screen and (min-width:735px) {
     .split {
         display: flex;
         flex-direction: row-reverse;
@@ -115,18 +116,7 @@ h3 {
     }
 
     #about-us {
-        text-align: center;
         width: 100%;
-        height: auto;
-        background-color: rgba(190,131,116,0.5);
-        font-size: 150%;
-    }
-}
-
-/* Media query to hide fun facts aside unless screen size is larger than 900px */
-@media screen and (max-width:900px) {
-    #fun-facts {
-        display: none;
     }
 }
 
