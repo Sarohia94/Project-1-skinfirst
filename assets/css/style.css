@@ -187,6 +187,7 @@ h3 {
 }
 
 /* Media query for diplaying the other factors section on screan sizes larger than 575px*/
+@media screen and (min-width:575px) {
     #other-factors > div {
         background-color: rgba(190,131,116,0.25);
         width: 25%;
@@ -197,6 +198,7 @@ h3 {
         border: 2px solid white;
         box-sizing: border-box;
     }
+}
 
 /* Form section */
 .form {
