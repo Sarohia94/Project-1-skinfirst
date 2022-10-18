@@ -23,17 +23,10 @@ h1 {
 
 }
 
-h2 {
+h2, h3 {
     font-family: 'Alkalami', serif;
     font-weight: 400;
     color: #6a3929;
-}
-
-h3 {
-    font-family: 'Alkalami', serif;
-    color: #6a3929;
-    text-align: left;
-    margin: 15px 10px 5px;
 }
 
 #logo {
@@ -49,7 +42,7 @@ h3 {
 }
 
 #nav {
-    font-size: 100%;
+    font-size: 120%;
     float: right;
 }
 
@@ -74,8 +67,7 @@ h3 {
     font-weight: bold;
 }
 
-/* Home page */
-/* Landing image */
+/* Home page - landing image */
 #container {
     margin: 15px 10px 5px;
 }
@@ -86,7 +78,7 @@ h3 {
     display: block;
 }
 
-/* About us section */
+/* Home page - about us section */
 #about-us {
     text-align: center;
     max-width: 100%;
@@ -96,17 +88,22 @@ h3 {
     font-size: 150%;
 }
 
-/* fun facts aside */
+/* Home page - fun facts aside */
 #fun-facts {
     border: #af9e42 solid 2.5px;
 }
 
-#fun-facts > aside > ul > li {
+#fun-facts > h2 {
+    text-align: center;
+    margin: 15px 10px 5px;
+}
+
+#fun-facts > ul > li {
     margin: 15px 10px 5px;
     list-style: none;
 }
 
-/* Media query to show landing-image2 and about us section on a tablet screen size or larger*/
+/* Home page - media query to show landing-image2 in proportion to the about us section on a tablet screen size or larger */
 @media screen and (min-width:735px) {
     .split {
         display: flex;
@@ -121,8 +118,7 @@ h3 {
     }
 }
 
-/* Guide page */
-/* Morning and night routine */
+/* Guide page - morning and night routine */
 #routine {
     clear: both;
     position: relative;
@@ -132,12 +128,8 @@ h3 {
     background-color: rgba(190,131,116,0.25);
 }
 
-#routine > p {
+#routine > h1 {
     text-align: center;
-    font-family: 'Alkalami', serif;
-    font-weight: 300;
-    font-size: 120%;
-    color: #6a3929;
     margin: 15px 10px 5px;
 }
 
@@ -155,7 +147,7 @@ h3 {
     background-color: white;
 }
 
-/* Other factors section*/
+/* Guide page - other factors section */
 #other-factors {
     margin: 15px 10px 5px;
     clear: both;
@@ -182,7 +174,7 @@ h3 {
     color: #6a3929;
 }
 
-/* Media query for diplaying the routine on screan sizes larger than 680px*/
+/* Guide page - media query for diplaying the routine on screen sizes larger than 680px */
 @media screen and (min-width:680px) {
     #left-night, #right-morning {
         width: 45%;
@@ -193,7 +185,7 @@ h3 {
     } 
 }
 
-/* Media query for diplaying the other factors section on screan sizes larger than 575px*/
+/* Guide page - media query for diplaying the other factors section on screan sizes larger than 575px */
 @media screen and (min-width:575px) {
     #other-factors > div {
         background-color: rgba(190,131,116,0.25);
@@ -207,11 +199,11 @@ h3 {
     }
 }
 
-/* Form section */
+/* Signup page - form section */
 .form {
     clear: left;
     background: url(../images/image3.jpg);
-    background-color: rgba(190,131,116,0.5);
+    background-color: rgba(190,131,116,0.25);
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -233,10 +225,10 @@ h3 {
 }
 
 .signup > label {
-    font-weight: 900;
+    font-weight: 800;
 }
 
-legend p {
+.signup p {
     margin-bottom: 20px;
 }
 
@@ -258,7 +250,7 @@ legend p {
     border-radius: 2px;
     padding: 10px 15px 10px 15px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 800;
     background-color: white;
     border: solid 2px #6a3929;
     color: #6a3929;
@@ -279,6 +271,7 @@ legend p {
 
 #message > h3 {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 #message > p {
@@ -288,18 +281,17 @@ legend p {
 
 #return-home {
     margin: 20px 0 20px 0;
-    border-radius: 2px;
     padding: 20px 30px 20px 30px;
     text-align: center;
-    font-size: 100%;
-    background-color: #af9e42;
+    font-weight: 800;
+    background-color: white;
+    border: solid 2px #6a3929;
     color: #6a3929;
-    text-align: center;
 }
 
 #return-home:hover {
     background-color: #6a3929;
-    color: #af9e42;
+    color: white;
 }
 
 /* Footer section */
@@ -308,10 +300,7 @@ footer {
     background-color: rgba(172, 175, 174,0.25);
     position: relative;
     clear: both;
-}
-
-.social-media {
-   text-align: center;
+    text-align: center;
 }
 
 .social-media li {
@@ -327,10 +316,4 @@ footer {
 
 .social-media i:hover {
     font-size: 300%;
-}
-
-.social-media > i {
-    width: 100%;
-    height: auto;
-    text-align: center;
 }
