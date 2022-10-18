@@ -19,13 +19,14 @@ body {
 h1 {
     font-family: 'Alkalami', serif;
     font-weight: 800;
-    color: #af9e42;
+    color: #6a3929;
+
 }
 
 h2 {
     font-family: 'Alkalami', serif;
     font-weight: 400;
-    color: #af9e42;
+    color: #6a3929;
 }
 
 h3 {
@@ -90,7 +91,7 @@ h3 {
     text-align: center;
     max-width: 100%;
     display: block;
-    background-color: rgba(190,131,116,0.5);
+    background-color: rgba(190,131,116,0.25);
     padding: 8px 4px;
     font-size: 150%;
 }
@@ -126,12 +127,18 @@ h3 {
     clear: both;
     position: relative;
     margin: 15px 10px 5px;
+    padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgba(190,131,116,0.25);
 }
 
-#routine > h3 {
+#routine > p {
     text-align: center;
+    font-family: 'Alkalami', serif;
+    font-weight: 300;
+    font-size: 120%;
+    color: #6a3929;
+    margin: 15px 10px 5px;
 }
 
 #routine > div > ol > li {
@@ -249,17 +256,18 @@ legend p {
 .join {
     margin: 20px 0 20px 0;
     border-radius: 2px;
-    padding: 20px 30px 20px 30px;
+    padding: 10px 15px 10px 15px;
     text-align: center;
-    font-size: 100%;
-    background-color: #af9e42;
+    font-weight: 500;
+    background-color: white;
+    border: solid 2px #6a3929;
     color: #6a3929;
     display: block;
 }
 
 .join:hover {
     background-color: #6a3929;
-    color: #af9e42;
+    color: white;
 }
 
 /* Thankyou page */
@@ -297,7 +305,7 @@ legend p {
 /* Footer section */
 footer {
     height: 150px;
-    background-color: rgba(172, 175, 174,0.5);
+    background-color: rgba(172, 175, 174,0.25);
     position: relative;
     clear: both;
 }
@@ -317,9 +325,8 @@ footer {
     color: #6a3929;
 }
 
-.social-media > i:hover {
-    transform: scaleX(2);
-    transform: scaleY(1.5);
+.social-media i:hover {
+    font-size: 300%;
 }
 
 .social-media > i {
