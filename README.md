@@ -1,6 +1,6 @@
 # skinfirst website
 
-The skinfirst website is designed to promote skin wellness to its visitors. The purpose of the site is to inform the user of routines they can follow and other useful information they can apply in their day to day lives. 
+The skinfirst website is designed to promote skin wellness to its visitors. The purpose of the site is to provide the user with bitesize, accessible information that they can then apply in their day to day lives. 
 
 ![skinfirst website shown on a range of devices](assets/images/skinfirstwebsite.png)
 
