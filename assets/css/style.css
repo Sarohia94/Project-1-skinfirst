@@ -120,23 +120,18 @@ h2, h3 {
     #about-us {
         max-width: 100%;
     } 
-
-    
 }
 
 /* Guide page - morning and night routine */
 #routine {
     clear: both;
     position: relative;
-    margin: 15px 10px 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgba(190,131,116,0.25);
 }
 
 #routine > h1 {
     text-align: center;
     margin: 15px 10px 5px;
+    background-color: rgba(190,131,116,0.25);
 }
 
 #routine > div > ol > li {
@@ -145,7 +140,7 @@ h2, h3 {
     margin-bottom: 10px;
 }
 
-#left-night, #right-morning {
+#left-morning, #right-night {
     display: block;
     margin: 15px 10px 5px;
     padding: 8px 4px 2px;
@@ -182,12 +177,9 @@ h2, h3 {
 
 /* Guide page - media query for diplaying the routine on screen sizes larger than 680px */
 @media screen and (min-width:680px) {
-    #left-night, #right-morning {
+    #left-morning, #right-night {
         width: 45%;
         float: left;
-        margin: 15px 10px 5px;
-        padding: 8px 4px 2px;
-        border: outset;
     } 
 }
 
