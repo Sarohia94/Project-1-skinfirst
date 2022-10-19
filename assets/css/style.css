@@ -167,7 +167,7 @@ h2, h3 {
     color: #6a3929;
 }
 
-/* Guide page - media query for diplaying the routine on screen sizes larger than 680px */
+/* Guide page - media query for diplaying the routines on screen sizes larger than 680px */
 @media screen and (min-width:680px) {
     #left-morning, #right-night {
         width: 45%;
@@ -182,7 +182,7 @@ h2, h3 {
         width: 25%;
         height: 200px;
         float: left;
-        padding: 30px 0 0 10px;
+        padding: 30px 10px 10px;
         text-align: center;
         border: 2px solid white;
         box-sizing: border-box;
@@ -192,7 +192,7 @@ h2, h3 {
 /* Signup page - form section */
 .form {
     clear: left;
-    background: url(../images/image3.jpg);
+    background: url(../images/image.jpg);
     background-color: rgba(190,131,116,0.25);
     background-size: cover;
     background-position: center;
