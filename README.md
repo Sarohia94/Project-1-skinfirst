@@ -2,6 +2,8 @@
 
 The skinfirst website is designed to promote skin wellness to its visitors. The purpose of the site is to provide the user with bitesize, accessible information that they can then apply in their day to day lives. 
 
+There is an about us section, a daily routine guide and a sign up form. The website is targeted towards people who want simplied information about what they can do to look after their skin.
+
 ![skinfirst website shown on a range of devices](assets/images/skinfirstwebsite.png)
 
 [View skinfirst on Github Pages](https://sarohia94.github.io/Project-1-skinfirst/)
