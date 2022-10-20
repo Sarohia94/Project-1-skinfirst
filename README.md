@@ -57,16 +57,15 @@ There is an about us section, a daily routine guide and a sign up form. The webs
 ## User Experience (UX)
 ### Initial Discussion
 
-The skinfirst website aims to provide users with an informative guide focussing on the importance of skin wellness and a good routine. The website will provide users with information regarding other factors to consider to aid skin wellness. It will also detail certifications to watch out for from accredited organisations on products which endorse a positive environmental and social impact.
+The skinfirst website looks to provide users with a guide, highlighting the importance of skin wellness and a simple to follow routine. The website will provide users with the option to sign up to join the community forum and be updated as we grow the webiste. 
 
 #### Key information for the site
 
-* What the website is about.
+* What skinfirst is all about.
+* Some facts related to skin.
 * Suggestive guide for a Morning & Night routine.
 * Other factors to consider to promote skin wellness.
-* Certifications to look out for on products.
 * How to sign up and get involved.
-* A way for people to get in contact to share their routines and tips.
 
 ### User Stories
 
@@ -74,8 +73,8 @@ The skinfirst website aims to provide users with an informative guide focussing 
 
 * To make it responsive so that users are able to view the site on a range of device sizes.
 * To make it easy for users to interact with the website intuitively.
-* To make it clear for users to understand and follow the guidance being provided.
-* To allow users to be able to sign up & contact skinfirst to leave comments/feedback regarding their routine and tips for skin wellness.
+* To make it simple for users to understand and follow the guidance being provided.
+* To allow users to be able to sign up to skinfirst to get involved on the community forum and be kept informed as and when we update the website.
 
 #### First Time Visitor Goals
 
@@ -109,7 +108,7 @@ Google Fonts were used as below
 
 ### Imagery
 
-Images used are clean and natural to fit the theme and intention of the website. 
+Images used are calming and natural to fit the theme and intention of the website. 
 
 ### Wireframes
 
