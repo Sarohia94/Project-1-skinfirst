@@ -103,6 +103,7 @@ h2, h3 {
 #fun-facts > ul > li {
     margin: 15px 10px 5px;
     list-style: none;
+    text-align: center;
 }
 
 /* Guide page - morning and night routine */
