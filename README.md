@@ -209,7 +209,10 @@ The website was deployed to GitHub Pages as follows:
 ### Known Bugs
 
 ### Testing User Stories
-
+* I want to find out what skinfirst is all about and what I can learn about skin wellness.
+* I want to be able to navigate the site easily to find information.
+* I want to be able to take away useful information that I can apply in my day to day life.
+* I want to be able connect with skinfirst via social media links.
 ### Lighthouse
 
 ### Full Testing
