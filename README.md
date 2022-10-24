@@ -193,11 +193,20 @@ The website was deployed to GitHub Pages as follows:
 
 ## Testing 
 * Issues faced before my mid project meeting:
-  * 
+  1. Adding media queries to make website pages responsive. Initially started by building with the desktop view in mind so lost time when reworking to build mobile first as discussed with my mentor.
+  2. Struggled to make my landing images proportional to the about us section. By using specificity on the image tag and setting the height and width, this seemed to resolve the issue.
+  ![Issue with the landing image not being in proportion to the about us section](docs/testing/issues1.png)
+  ![Issue with landing image 2 in proportion to the about us section for larger screen sizes](docs/testing/issues2.png)
+  3. The other factors section would break on smaller screen sizes due to the size of the icons in proportion the box. This was resolved by have the boxes stacked on top of each other for smaller screen sizes.
+  ![Issue with the size of boxes and the icon spilling out](docs/testing/issues3.png)
+  4. Lighthouse check and colour contrast check on Coolers shown poor accessibility for font colour #af9ef2 against white or light coloured backgrounds so this was amended where used to #6a3929.
+  ![Issue with color contrast as evidenced by Coolers](docs/testing/issues4.png)
+  5. 
+
 * Issues raised in my mid project meeting with my mentor:
   * 
 * Issues faced before submitting my project for review on slack:
-  * 
+  * I have tested my website on samsung mobile, samsung internet and on desktop, on chrome and microsoft edge but needed futher testing on different browsers.
 * Issues raised as part of feedback from the peer code review on slack:
   * 
 * Final issues raised following the end project meeting with my mentor:
