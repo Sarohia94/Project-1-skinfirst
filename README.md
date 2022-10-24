@@ -109,7 +109,7 @@ Google Fonts were used as below
 
 ### Imagery
 
-Images used are calming and natural to fit the theme and intention of the website. Images were taken from the Pexels website and can be found in the credits section.
+Images used are calming and natural to fit the theme and intention of the website. Images were taken from the [Pexels](https://www.pexels.com/) website and can be found in the credits section.
 
 ### Wireframes
 
