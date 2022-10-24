@@ -63,7 +63,7 @@ The skinfirst website looks to provide users with a guide, highlighting the impo
 
 * What skinfirst is all about.
 * Some facts related to skin.
-* Suggestive guide for a Morning & Night routine.
+* A guide for a Morning & Night routine.
 * Other factors to consider to promote skin wellness.
 * How to sign up and get involved.
 
@@ -73,7 +73,7 @@ The skinfirst website looks to provide users with a guide, highlighting the impo
 
 * To make it responsive so that users are able to view the site on a range of device sizes.
 * To make it easy for users to interact with the website intuitively.
-* To make it simple for users to understand and follow the guidance being provided.
+* To make it easy for users to understand and follow the guidance being provided.
 * To allow users to be able to sign up to skinfirst to get involved on the community forum and be kept informed as and when we update the website.
 
 #### First Time Visitor Goals
