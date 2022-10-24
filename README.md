@@ -148,7 +148,7 @@ Wireframes were created for destop/tablet and mobile.
 ### Accessibility 
 The website acheives accessibility with:
 * Semantic HTML
-* Alt attributes on the images
+* Alt attribute on the image
 * Information provided for screen readers where icons are used with no text
 * Colour contrast is checked and sufficient
 * Marking current page as current for screen readers
@@ -174,6 +174,7 @@ The website acheives accessibility with:
 * Hover.css - to make the nav bar, footer links and the sign up button interactive.
 * [Tiny PNG](https://tinypng.com/) - to compress images.
 * [Shields](https://shields.io/) - to add badges.
+* [Responsive design checker](https://responsivedesignchecker.com/) - to check responsive design or variety of screen sizes.
 
 ---
 
