@@ -209,10 +209,23 @@ The website was deployed to GitHub Pages as follows:
 ### Known Bugs
 
 ### Testing User Stories
-* I want to find out what skinfirst is all about and what I can learn about skin wellness.
-* I want to be able to navigate the site easily to find information.
-* I want to be able to take away useful information that I can apply in my day to day life.
-* I want to be able connect with skinfirst via social media links.
+* First Time Visitors
+  * I want to find out what skinfirst is all about and what I can learn about skin wellness.
+  ![Home page with the about us section](docs/testing/userstories1.png)
+  * I want to be able to navigate the site easily to find information. Current page will be shown with text emoboldened and an underline. Hovering over any of the other nav bar links will also cause the text to embolden and an underline to appear.
+  ![Nav bar links](docs/testing/userstories2.png)
+  * I want to be able to take away useful information that I can apply in my day to day life.
+  ![Morning and Night routine section](docs/testing/userstories3.png)
+  * I want to be able connect with skinfirst via social media links. Hovering over the icons will cause the size to increase.
+  ![Social media icons in the footer section](docs/testing/userstories4.png)
+  
+* Returning Visitors
+  * I want to be able to contact and interact with skinfirst.
+  ![Sign up page to join the community](docs/testing/userstories5.png)
+
+* Frequent Visitor Goals
+* I want to be able to interact and help build the community by leaving my own tips and sharing information on skin wellness. This will be feature to add down the line to make the site more interactive.
+
 ### Lighthouse
 
 ### Full Testing
