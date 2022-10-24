@@ -8,7 +8,6 @@ There is an about us section, a daily routine guide and a sign up form which lin
 
 [View skinfirst on Github Pages](https://sarohia94.github.io/Project-1-skinfirst/)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/?color=red)
 ![GitHub contributors](https://img.shields.io/github/contributors/?color=orange)
 ![GitHub language count](https://img.shields.io/github/languages/count/?color=yellow)
 ![GitHub top language](https://img.shields.io/github/languages/top/?color=green)
@@ -165,11 +164,16 @@ The website acheives accessibility with:
 * Git - for version control. Using GitPod terminal to commit to Git and push to GitHub.
 * GitHub - to save and store the code pushed from Git.
 * Balsamic - to create the wireframes when designing the website.
-* Google Fonts - to import font to apply on the website.
-* Font Awesome - to add icons.
-* Dev Tools - for testing and troubleshooting .
-* Am I responsive? - to show website across a range of devices.
-* Hover.css - to float the nav bar links.
+* [Google Fonts](https://fonts.google.com/) - to import font to apply on the website.
+* [Font Awesome](https://fontawesome.com/) - to add icons.
+* Dev Tools - for testing and troubleshooting.
+* [Am I responsive?](https://ui.dev/amiresponsive) - to show website across a range of devices.
+* [Wave](https://wave.webaim.org/) - to test web accessibility.
+* [W3C](https://validator.w3.org/) - HTML validator.
+* [Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS validator.
+* Hover.css - to make the nav bar, footer links and the sign up button interactive.
+* [Tiny PNG](https://tinypng.com/) - to compress images.
+* [Shields](https://shields.io/) - to add badges.
 
 ---
 
