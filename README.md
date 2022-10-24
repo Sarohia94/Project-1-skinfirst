@@ -81,6 +81,7 @@ The skinfirst website looks to provide users with a guide, highlighting the impo
 * I want to find out what skinfirst is all about and what I can learn about skin wellness.
 * I want to be able to navigate the site easily to find information.
 * I want to be able to take away useful information that I can apply in my day to day life.
+* I want to be able connect with skinfirst via social media links.
 
 #### Returning Visitor Goals
 
@@ -108,7 +109,7 @@ Google Fonts were used as below
 
 ### Imagery
 
-Images used are calming and natural to fit the theme and intention of the website. 
+Images used are calming and natural to fit the theme and intention of the website. Images were taken from the Pexels website and can be found in the credits section.
 
 ### Wireframes
 
