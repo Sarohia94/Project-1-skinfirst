@@ -192,8 +192,22 @@ The website was deployed to GitHub Pages as follows:
 ---
 
 ## Testing 
-* Issues faced before my mid project meeting:
-  1. Adding media queries to make website pages responsive. Initially started by building with the desktop view in mind so lost time when reworking to build mobile first as discussed with my mentor.
+* Issues raised in my mid project meeting with my mentor:
+  1. Layout used for bigger screen sizes on home page looked a little awkward so we discussed using the mobile landing image for all screen sizes but image was too pixelated. Using flex box to create a 3 column view seemed to improve the layout structure for screen sizes up to 1440px.
+  ![Issue with layout for bigger screen sizes](docs/testing/issues6.png)
+  2. Remove "/" infront of file path as relative path can be used for the images.
+  3. Add meta tag for http-equiv to thank you page to direct user automatically back to the home page after a set time. Mentor [Chris Quinn](https://github.com/10xOXR) has been credited for the code. 
+* Issues faced before submitting my project for review on slack:
+  1. I have tested my website on samsung mobile, samsung internet and on desktop, on chrome and microsoft edge but need futher testing on different browsers.
+* Issues raised as part of feedback from the peer code review on slack:
+  1. TBC
+* Final issues raised following the end project meeting with my mentor:
+  1. TBC
+### W3C Validator 
+
+### Solved Bugs
+* Issues faced and resolved before my mid project meeting:
+  1. Adding media queries to make website pages responsive. Initially started by building with the desktop view in mind so lost time when reworking to build mobile first as discussed with my mentor in our first project meeting.
   2. Struggled to make my landing images responsive and proportional. Using specificity on the image tag and setting the height, width and object-fit seemed to have resolve the issue.
   ![Issue with the landing image not being in proportion to the about us section](docs/testing/issues1.png)
   ![Issue with landing image 2 in proportion to the about us section for larger screen sizes](docs/testing/issues2.png)
@@ -203,21 +217,9 @@ The website was deployed to GitHub Pages as follows:
   ![Issue with color contrast as evidenced by Coolers](docs/testing/issues4.png)
   5. Below error message appeared due to an alt attribute being included in the source tag which was not required. Looking in to this further with tutor [Gemma Sayers](https://github.com/GJSayers) on Slack it seems for now nothing more can be done for accessibility using the source tag.
   ![Issue with using an unrequired alt attribute on the source tag](docs/testing/issues5.png)
-  6. 
-
-* Issues raised in my mid project meeting with my mentor:
-  * 
-* Issues faced before submitting my project for review on slack:
-  * I have tested my website on samsung mobile, samsung internet and on desktop, on chrome and microsoft edge but needed futher testing on different browsers.
-* Issues raised as part of feedback from the peer code review on slack:
-  * 
-* Final issues raised following the end project meeting with my mentor:
-
-### W3C Validator 
-
-### Solved Bugs
-
 ### Known Bugs
+  1. On screen sizes 1600px and upwards there is increasingly free space below the about us and fun facts aside. Another media query can be added to reconfigure the layout or add further content in these sections such as videos. Due to time constaints this may be something to be worked on and improved later.
+  ![Issue with layout and free space on screen sizes larger than 1600px](docs/testing/issues7.png)
 
 ### Testing User Stories
 * First Time Visitors
@@ -235,7 +237,7 @@ The website was deployed to GitHub Pages as follows:
   ![Sign up page to join the community](docs/testing/userstories5.png)
 
 * Frequent Visitor Goals
-* I want to be able to interact and help build the community by leaving my own tips and sharing information on skin wellness. This will be feature to add down the line to make the site more interactive.
+* I want to be able to interact and help build the community by leaving my own tips and sharing information on skin wellness. This will be feature to add down the line to make the site more interactive. This can be in the form of a text area field or a separate page for a community forum section.
 
 ### Lighthouse
 
@@ -257,7 +259,9 @@ Images used were obtained from the [Pexels](https://www.pexels.com/) webiste
 
 ### Acknowledgements 
 Thank you to anyone taking the time to view my first project, to the Slack community and the below individuals:
-* [Kera Cudmore](https://github.com/kera-cudmore) for her README webinar and resources provided
 * [Chris Quinn](https://github.com/10xOXR)
+* [Kera Cudmore](https://github.com/kera-cudmore) for her README webinar and resources provided
+* [Gemma Sayers](https://github.com/GJSayers) 
+* 
 
 
