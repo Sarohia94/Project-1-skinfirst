@@ -204,7 +204,8 @@ The website was deployed to GitHub Pages as follows:
 * Final issues raised following the end project meeting with my mentor:
   1. TBC
 ### W3C Validator 
-
+* No issues with [index.html](docs/testing/w3chtmlindex.png)
+* 
 ### Solved Bugs
 * Issues faced and resolved before my mid project meeting:
   1. Adding media queries to make website pages responsive. Initially started by building with the desktop view in mind so lost time when reworking to build mobile first as discussed with my mentor in our first project meeting.
