@@ -130,7 +130,7 @@ h2, h3 {
     position: relative;
 }
 
-#routine > h1 {
+#routine > h2 {
     text-align: center;
     margin: 15px 10px 5px;
     background-color: rgba(190,131,116,0.25);
