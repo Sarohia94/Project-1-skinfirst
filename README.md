@@ -194,14 +194,16 @@ The website was deployed to GitHub Pages as follows:
 ## Testing 
 * Issues faced before my mid project meeting:
   1. Adding media queries to make website pages responsive. Initially started by building with the desktop view in mind so lost time when reworking to build mobile first as discussed with my mentor.
-  2. Struggled to make my landing images responsive and proportional. By using specificity on the image tag and setting the height and width, this seemed to resolve the issue.
+  2. Struggled to make my landing images responsive and proportional. Using specificity on the image tag and setting the height, width and object-fit seemed to have resolve the issue.
   ![Issue with the landing image not being in proportion to the about us section](docs/testing/issues1.png)
   ![Issue with landing image 2 in proportion to the about us section for larger screen sizes](docs/testing/issues2.png)
   3. The other factors section would break on smaller screen sizes due to the size of the icons in proportion the box. This was resolved by have the boxes stacked on top of each other for smaller screen sizes.
   ![Issue with the size of boxes and the icon spilling out](docs/testing/issues3.png)
   4. Lighthouse check and colour contrast check on [Coolers](https://coolors.co/contrast-checker/af9e42-ffffff) shown poor accessibility for font colour #AF9E42 against white or light coloured backgrounds so this was amended to #6A3929.
   ![Issue with color contrast as evidenced by Coolers](docs/testing/issues4.png)
-  5. 
+  5. Below error message appeared due to an alt attribute being included in the source tag which was not required. Looking in to this further with tutor [Gemma Sayers](https://github.com/GJSayers) on Slack it seems for now nothing more can be done for accessibility using the source tag.
+  ![Issue with using an unrequired alt attribute on the source tag](docs/testing/issues5.png)
+  6. 
 
 * Issues raised in my mid project meeting with my mentor:
   * 
