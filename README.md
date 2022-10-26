@@ -187,7 +187,7 @@ The website was deployed to GitHub Pages as follows:
 ## Testing 
 * Issues raised in my mid project meeting with my mentor:
   1. Layout used for bigger screen sizes on home page looked a little awkward so we discussed using the mobile landing image for all screen sizes but image was too pixelated. Using flex box to create a 3 column view seemed to improve the layout structure for screen sizes up to 1440px.
-  ![Issue with layout for bigger screen sizes](docs/testing/issues6.png)
+  ![Issue with layout for bigger screen sizes](docs/testing/issues/issues6.png)
   2. Remove "/" infront of file path as relative path should be used for the images.
   3. Add meta tag for http-equiv to thank you page to direct user automatically back to the home page after a set time. Mentor [Chris Quinn](https://github.com/10xOXR) has been credited for the code. 
 * Issues faced before submitting my project for review on slack:
@@ -198,47 +198,58 @@ The website was deployed to GitHub Pages as follows:
   1. TBC
 ### W3C Validator 
 No issues with the HTML pages or CSS:
-* [index.html](docs/testing/w3chtmlindex.png)
-* [guide.html](docs/testing/w3chtmlguide.png)
-* [signup.html](docs/testing/w3chtmlsignup.png)
-* [thankyou.html](docs/testing/w3chtmlthankyou.png)
-* [css](docs/testing/w3ccss.png)
+* [index.html](docs/testing/w3c/w3chtmlindex.png)
+* [guide.html](docs/testing/w3c/w3chtmlguide.png)
+* [signup.html](docs/testing/w3c/w3chtmlsignup.png)
+* [thankyou.html](docs/testing/w3c/w3chtmlthankyou.png)
+* [css](docs/testing/w3c/w3ccss.png)
 ### Solved Bugs
 * Issues faced and resolved before my mid project meeting:
   1. Adding media queries to make website pages responsive. Initially started by building with the desktop view in mind so lost time when reworking to build mobile first as discussed with my mentor in our first project meeting.
   2. Struggled to make my landing images responsive and proportional. Using specificity on the image tag and setting the height, width and object-fit seemed to resolve the issue.
-  ![Issue with the landing image not being in proportion to the about us section](docs/testing/issues1.png)
-  ![Issue with landing image 2 in proportion to the about us section for larger screen sizes](docs/testing/issues2.png)
+  ![Issue with the landing image not being in proportion to the about us section](docs/testing/issues/issues1.png)
+  ![Issue with landing image 2 in proportion to the about us section for larger screen sizes](docs/testing/issues/issues2.png)
   3. The other factors section would break on smaller screen sizes due to the size of the icons in proportion the box. This was resolved by have the boxes stacked on top of each other for smaller screen sizes and amending the padding.
-  ![Issue with the size of boxes and the icon spilling out](docs/testing/issues3.png)
+  ![Issue with the size of boxes and the icon spilling out](docs/testing/issues/issues3.png)
   4. Lighthouse and colour contrast check on [Coolers](https://coolors.co/contrast-checker/af9e42-ffffff) showed poor accessibility for font colour #AF9E42 against white or light coloured backgrounds so this was amended to #6A3929.
-  ![Issue with color contrast as evidenced by Coolers](docs/testing/issues4.png)
+  ![Issue with color contrast as evidenced by Coolers](docs/testing/issues/issues4.png)
   5. Below error message appeared due to an alt attribute being included in the source tag which was not required. Looking in to this further with tutor [Gemma Sayers](https://github.com/GJSayers) on Slack it seems for now nothing more can be done for accessibility using the source tag.
-  ![Issue with using an unrequired alt attribute on the source tag](docs/testing/issues5.png)
+  ![Issue with using an unrequired alt attribute on the source tag](docs/testing/issues/issues5.png)
 ### Known Bugs
   1. On screen sizes 1600px and upwards there is increasingly free space below the about us and fun facts aside. Another media query can be added to reconfigure the layout or add further content in these sections such as videos. Due to time constaints this may be something to be worked on and improved later.
-  ![Issue with layout and free space on screen sizes larger than 1600px](docs/testing/issues7.png)
+  ![Issue with layout and free space on screen sizes larger than 1600px](docs/testing/issues/issues7.png)
 
 ### Testing User Stories
 * First Time Visitors
   * I want to find out what skinfirst is all about and what I can learn about skin wellness.
-  ![Home page with the about us section](docs/testing/userstories1.png)
+  ![Home page with the about us section](docs/testing/userstories/userstories1.png)
   * I want to be able to navigate the site easily to find information. Current page will be shown with text emoboldened and an underline. Hovering over any of the other nav bar links will also cause the text to embolden and an underline to appear.
-  ![Nav bar links](docs/testing/userstories2.png)
+  ![Nav bar links](docs/testing/userstories/userstories2.png)
   * I want to be able to take away useful information that I can apply in my day to day life.
-  ![Morning and Night routine section](docs/testing/userstories3.png)
+  ![Morning and Night routine section](docs/testing/userstories/userstories3.png)
   * I want to be able connect with skinfirst via social media links. Hovering over the icons will cause the size to increase.
-  ![Social media icons in the footer section](docs/testing/userstories4.png)
+  ![Social media icons in the footer section](docs/testing/userstories/userstories4.png)
   
 * Returning Visitors
   * I want to be able to contact and interact with skinfirst.
-  ![Sign up page to join the community](docs/testing/userstories5.png)
+  ![Sign up page to join the community](docs/testing/userstories/userstories5.png)
 
 * Frequent Visitor Goals
 * I want to be able to interact and help build the community by leaving my own tips and sharing information on skin wellness. This will be feature to add down the line to make the site more interactive. This can be in the form of a text area field or a separate page for a community forum section.
 
 ### Lighthouse
-
+Index page 
+* [Lighthouse testing for mobile](docs/testing/lighthouse/lighthouseindexmobile.png)
+* [Lighthouse testing for desktop](docs/testing/lighthouse/lighthouseindexdesktop.png)
+Guide page
+* [Lighthouse testing for mobile](docs/testing/lighthouse/lighthouseguidemobile.png)
+* [Lighthouse testing for desktop](docs/testing/lighthouse/lighthouseguidedesktop.png)
+Signup page
+* [Lighthouse testing for mobile](docs/testing/lighthouse/lighthousesignupmobile.png)
+* [Lighthouse testing for desktop](docs/testing/lighthouse/lighthousesignupdesktop.png)
+Thankyou page 
+* [Lighthouse testing for mobile](docs/testing/lighthouse/lighthousethankyoumobile.png)
+* [Lighthouse testing for desktop](docs/testing/lighthouse/lighthousethankyoudesktop.png)
 ### Full Testing
 
 ---
