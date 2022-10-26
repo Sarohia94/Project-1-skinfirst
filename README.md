@@ -8,12 +8,6 @@ There is an about us section, a daily routine guide and a sign up form which lin
 
 [View skinfirst on Github Pages](https://sarohia94.github.io/Project-1-skinfirst/)
 
-![GitHub contributors](https://img.shields.io/github/contributors/?color=orange)
-![GitHub language count](https://img.shields.io/github/languages/count/?color=yellow)
-![GitHub top language](https://img.shields.io/github/languages/top/?color=green)
-![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=)
-
-
 * [User Experience (UX)](#User-Experience-(UX))
   * [Initial Discussion](#Initial-Discussion)
   * [User Stories](#User-Stories)
@@ -146,11 +140,11 @@ Wireframes were created for destop/tablet and mobile.
   * The sign up form can have a text box where the user can submit a query, comment or feedback. The other option to further this is to have a link to another page which acts as a interactive community forum for ideas to be shared and discussed among members.
   
 ### Accessibility 
-The website acheives accessibility with:
+The website achieves accessibility with:
 * Semantic HTML
 * Alt attribute on the image
 * Information provided for screen readers where icons are used with no text
-* Colour contrast is checked and sufficient
+* Colour contrast, checked and sufficient
 * Marking current page as current for screen readers
 
 ---
@@ -173,8 +167,7 @@ The website acheives accessibility with:
 * [Jigsaw](https://jigsaw.w3.org/css-validator/) - CSS validator.
 * Hover.css - to make the nav bar, footer links and the sign up button interactive.
 * [Tiny PNG](https://tinypng.com/) - to compress images.
-* [Shields](https://shields.io/) - to add badges.
-* [Responsive design checker](https://responsivedesignchecker.com/) - to check responsive design or variety of screen sizes.
+* [Responsive design checker](https://responsivedesignchecker.com/) - to check responsive design for a variety of screen sizes.
 
 ---
 
@@ -195,7 +188,7 @@ The website was deployed to GitHub Pages as follows:
 * Issues raised in my mid project meeting with my mentor:
   1. Layout used for bigger screen sizes on home page looked a little awkward so we discussed using the mobile landing image for all screen sizes but image was too pixelated. Using flex box to create a 3 column view seemed to improve the layout structure for screen sizes up to 1440px.
   ![Issue with layout for bigger screen sizes](docs/testing/issues6.png)
-  2. Remove "/" infront of file path as relative path can be used for the images.
+  2. Remove "/" infront of file path as relative path should be used for the images.
   3. Add meta tag for http-equiv to thank you page to direct user automatically back to the home page after a set time. Mentor [Chris Quinn](https://github.com/10xOXR) has been credited for the code. 
 * Issues faced before submitting my project for review on slack:
   1. I have tested my website on samsung mobile, samsung internet and on desktop, on chrome and microsoft edge but need futher testing on different browsers.
@@ -213,12 +206,12 @@ No issues with the HTML pages or CSS:
 ### Solved Bugs
 * Issues faced and resolved before my mid project meeting:
   1. Adding media queries to make website pages responsive. Initially started by building with the desktop view in mind so lost time when reworking to build mobile first as discussed with my mentor in our first project meeting.
-  2. Struggled to make my landing images responsive and proportional. Using specificity on the image tag and setting the height, width and object-fit seemed to have resolve the issue.
+  2. Struggled to make my landing images responsive and proportional. Using specificity on the image tag and setting the height, width and object-fit seemed to resolve the issue.
   ![Issue with the landing image not being in proportion to the about us section](docs/testing/issues1.png)
   ![Issue with landing image 2 in proportion to the about us section for larger screen sizes](docs/testing/issues2.png)
-  3. The other factors section would break on smaller screen sizes due to the size of the icons in proportion the box. This was resolved by have the boxes stacked on top of each other for smaller screen sizes.
+  3. The other factors section would break on smaller screen sizes due to the size of the icons in proportion the box. This was resolved by have the boxes stacked on top of each other for smaller screen sizes and amending the padding.
   ![Issue with the size of boxes and the icon spilling out](docs/testing/issues3.png)
-  4. Lighthouse check and colour contrast check on [Coolers](https://coolors.co/contrast-checker/af9e42-ffffff) shown poor accessibility for font colour #AF9E42 against white or light coloured backgrounds so this was amended to #6A3929.
+  4. Lighthouse and colour contrast check on [Coolers](https://coolors.co/contrast-checker/af9e42-ffffff) showed poor accessibility for font colour #AF9E42 against white or light coloured backgrounds so this was amended to #6A3929.
   ![Issue with color contrast as evidenced by Coolers](docs/testing/issues4.png)
   5. Below error message appeared due to an alt attribute being included in the source tag which was not required. Looking in to this further with tutor [Gemma Sayers](https://github.com/GJSayers) on Slack it seems for now nothing more can be done for accessibility using the source tag.
   ![Issue with using an unrequired alt attribute on the source tag](docs/testing/issues5.png)
@@ -255,18 +248,17 @@ No issues with the HTML pages or CSS:
 ### Code
 
 ### Content
-* The content was written by the developer Amritpreet Sarohia
+* The content was written by the developer Amritpreet Sarohia.
 * Icons used were taken from [Font Awesome](https://fontawesome.com/)
-* Layout and structure of the README.md file was sampled from [Kera Cudmore's](https://github.com/kera-cudmore) template
+* Layout and structure of the README.md file was sampled from the Code Institute and [Kera Cudmore's](https://github.com/kera-cudmore) template.
 
 ### Media
-Images used were obtained from the [Pexels](https://www.pexels.com/) webiste
+Images used were obtained from the [Pexels](https://www.pexels.com/) website
 
 ### Acknowledgements 
-Thank you to anyone taking the time to view my first project, to the Slack community and the below individuals:
-* [Chris Quinn](https://github.com/10xOXR)
-* [Kera Cudmore](https://github.com/kera-cudmore) for her README webinar and resources provided
-* [Gemma Sayers](https://github.com/GJSayers) 
-* 
+Thank you to anyone taking the time to view my first project, to the Slack community, the tutors and the below individuals:
+* [Chris Quinn](https://github.com/10xOXR), my mentor. Thank you for your guidance and feedback.
+* [Kera Cudmore](https://github.com/kera-cudmore) for her README webinar and resources provided.
+* [Gemma Sayers](https://github.com/GJSayers) for her assistance on Slack.
 
 
