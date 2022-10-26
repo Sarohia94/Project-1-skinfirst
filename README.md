@@ -250,26 +250,39 @@ Signup page
 Thankyou page 
 * [Lighthouse testing for mobile](docs/testing/lighthouse/lighthousethankyoumobile.png)
 * [Lighthouse testing for desktop](docs/testing/lighthouse/lighthousethankyoudesktop.png)
+
 ### Full Testing
+* Tested responsiveness with the different dimensions in dev tools and via [Responsive design checker](https://responsivedesignchecker.com/).
+
+* Tested website on mobile, tablet, laptop and desktop.
+
+* Tested on Chrome, Samsung internet and Microsoft edge.
+
+* Tested nav links and logo link.
+
+* Tested social media link. They open on to a new page as expected.
+
+* Tested sign up form. Fields left blank will flag up when attempting to sign up.
 
 ---
 
 ## Credits
 
 ### Code
+* Meta tag for http-equiv credited to my mentor [Chris Quinn](https://github.com/10xOXR) following mid project meeting.
 
 ### Content
 * The content was written by the developer Amritpreet Sarohia.
 * Icons used were taken from [Font Awesome](https://fontawesome.com/)
+* Fun facts aside from https://forefrontdermatology.com/skin-fun-facts
+* Daily routine guide and inspiration from https://www.youtube.com/watch?v=PSoDYzw-iUI   
 * Layout and structure of the README.md file was sampled from the Code Institute and [Kera Cudmore's](https://github.com/kera-cudmore) template.
 
 ### Media
-Images used were obtained from the [Pexels](https://www.pexels.com/) website
+Images used were obtained from the [Pexels](https://www.pexels.com/) website.
 
 ### Acknowledgements 
 Thank you to anyone taking the time to view my first project, to the Slack community, the tutors and the below individuals:
 * [Chris Quinn](https://github.com/10xOXR), my mentor. Thank you for your guidance and feedback.
 * [Kera Cudmore](https://github.com/kera-cudmore) for her README webinar and resources provided.
 * [Gemma Sayers](https://github.com/GJSayers) for her assistance on Slack.
-
-
