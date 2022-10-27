@@ -128,10 +128,6 @@ h2, h3 {
 }
 
 /* Guide page - morning and night routine */
-#routine {
-    clear: both;
-    position: relative;
-}
 
 #routine > h2 {
     text-align: center;
@@ -155,7 +151,6 @@ h2, h3 {
 }
 
 #left-morning, #right-night {
-    display: block;
     margin: 15px 10px 5px;
     padding: 8px 4px 2px;
     border: outset;
@@ -173,7 +168,6 @@ h2, h3 {
     background-color: rgba(190,131,116,0.25);
     width: 100%;
     height: 150px;
-    display: block;
     padding: 30px 10px 10px;
     text-align: center;
     border: 2px solid white;
@@ -191,10 +185,15 @@ h2, h3 {
 
 /* Guide page - media query for diplaying the routines on screen sizes larger than 680px */
 @media screen and (min-width:680px) {
-    #left-morning, #right-night {
-        width: 45%;
+    #left-morning {
+        width: 47%;
         float: left;
     } 
+
+    #right-night {
+        width: 47%;
+        float: right;
+    }
 }
 
 /* Guide page - media query for diplaying the other factors section on screan sizes larger than 575px */
