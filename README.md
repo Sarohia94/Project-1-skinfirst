@@ -189,7 +189,7 @@ The website was deployed to GitHub Pages as follows:
   1. Layout used for bigger screen sizes on home page looked a little awkward so we discussed using the mobile landing image for all screen sizes but image was too pixelated. Using flex box to create a 3 column view seemed to improve the layout structure for screen sizes up to 1440px.
   ![Issue with layout for bigger screen sizes](docs/testing/issues/issues6.png)
   2. Remove "/" infront of file path as relative path should be used for the images.
-  3. Add meta tag for http-equiv to thank you page to direct user automatically back to the home page after a set time. Mentor [Chris Quinn](https://github.com/10xOXR) has been credited for the code. However doing so showed as an issue by lowering the lighthouse accessibility score. To combat this I extended the time from 10s to 30s to allow for more reading and decision making on how to navigate from the thankyou page.
+  3. Add meta tag for http-equiv to thank you page to direct user automatically back to the home page after a set time. Mentor [Chris Quinn](https://github.com/10xOXR) has been credited for the code. However doing so showed as an issue by lowering the lighthouse accessibility score. To combat this I extended the time from 10s to 30s to allow for more reading and decision making on how to navigate from the thankyou page. (see lighthouse section)
   ![Issue with lighthouse accessibility score following the include on the meta tag for http-equiv](docs/testing/issues/issues10.png)
 * Issues faced before submitting my project for review on slack:
   1. I have tested my website on samsung mobile, samsung internet and on desktop, on chrome and microsoft edge but need futher testing on different browsers.
@@ -199,7 +199,7 @@ The website was deployed to GitHub Pages as follows:
   2. Issue with day and night routine not being centered on bigger screen sizes, resulting in a larger gap on the right. This was resolved by floating left the morning routine and floating right the night routine, setting the width as 45%. This was identified by [Anya McDonald](https://github.com/anyahush).
   ![Issue with day and night routine not being centered on bigger screen sizes](docs/testing/issues/issues9.png)
   3. Issue with footer not sticking to the bottom of the page and as such leaving a gap. This was resolved by using flex box on the body and setting a margin top on the footer. The code for this was obtained from [here](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14). This was identified by [Anya McDonald](https://github.com/anyahush).
-  4. Issue with hover effect on social media icons where all icons react when switching between the links. This was identified by [Anya McDonald](https://github.com/anyahush).
+  4. Issue with hover effect on social media icons where all icons react when switching between the links. I was unable to resolve this in time. This was identified by [Anya McDonald](https://github.com/anyahush).
   ![Issue with the hover effect causing all social media icons to react when switching between them](docs/testing/issues/hovereffectissue.gif)
 * Final issues raised following the end project meeting with my mentor:
   1. TBC
@@ -245,22 +245,22 @@ No issues with the HTML pages or CSS:
   * I want to be able to interact and help build the community by leaving my own tips and sharing information on skin wellness. This will be feature to add down the line to make the site more interactive. This can be in the form of a text area field or a separate page for a community forum section.
 
 ### Lighthouse
-Index page testing for mobile
-* ![Index page testing for mobile](docs/testing/lighthouse/lighthouseindexmobile.png)
-Index page testing for desktop
-* ![Index page testing for desktop](docs/testing/lighthouse/lighthouseindexdesktop.png)
-Guide page testing for mobile
-* ![Guide page testing for mobile](docs/testing/lighthouse/lighthouseguidemobile.png)
-Guide page testing for desktop
-* ![Guide page testing for desktop](docs/testing/lighthouse/lighthouseguidedesktop.png)
-Signup page testing for mobile
-* ![Signup page testing for mobile](docs/testing/lighthouse/lighthousesignupmobile.png)
-Signup page testing for desktop
-* ![Signup page testing for desktop](docs/testing/lighthouse/lighthousesignupdesktop.png)
-Thankyou page testing for mobile
-* ![Thankyou page testing for mobile](docs/testing/lighthouse/lighthousethankyoumobile.png)
-Thankyou page testing for desktop
-* ![Thankyou page testing for desktop](docs/testing/lighthouse/lighthousethankyoudesktop.png)
+* Index page testing for mobile
+![Index page testing for mobile](docs/testing/lighthouse/lighthouseindexmobile.png)
+* Index page testing for desktop
+![Index page testing for desktop](docs/testing/lighthouse/lighthouseindexdesktop.png)
+* Guide page testing for mobile
+![Guide page testing for mobile](docs/testing/lighthouse/lighthouseguidemobile.png)
+* Guide page testing for desktop
+![Guide page testing for desktop](docs/testing/lighthouse/lighthouseguidedesktop.png)
+* Signup page testing for mobile
+![Signup page testing for mobile](docs/testing/lighthouse/lighthousesignupmobile.png)
+* Signup page testing for desktop
+![Signup page testing for desktop](docs/testing/lighthouse/lighthousesignupdesktop.png)
+* Thankyou page testing for mobile
+![Thankyou page testing for mobile](docs/testing/lighthouse/lighthousethankyoumobile.png)
+* Thankyou page testing for desktop
+![Thankyou page testing for desktop](docs/testing/lighthouse/lighthousethankyoudesktop.png)
 
 ### Full Testing
 * Tested responsiveness with the different dimensions in dev tools and via [Responsive design checker](https://responsivedesignchecker.com/).
@@ -277,13 +277,13 @@ Thankyou page testing for desktop
 
 ### Code
 * Meta tag for http-equiv credited to my mentor [Chris Quinn](https://github.com/10xOXR) following mid project meeting.
-* How to make the footer stick to the bottom of the page credited to [DEV post](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
+* How to make the footer stick to the bottom of the page credited to [DEV](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14) post.
 
 ### Content
 * The content was written by the developer Amritpreet Sarohia.
 * Icons used were taken from [Font Awesome](https://fontawesome.com/)
-* Fun facts aside from https://forefrontdermatology.com/skin-fun-facts
-* Daily routine guide and inspiration from https://www.youtube.com/watch?v=PSoDYzw-iUI   
+* Fun facts aside from [here](https://forefrontdermatology.com/skin-fun-facts)
+* Daily routine guide and inspiration from [here](https://www.youtube.com/watch?v=PSoDYzw-iUI)  
 * Layout and structure of the README.md file was sampled from the Code Institute and [Kera Cudmore's](https://github.com/kera-cudmore) template.
 
 ### Media
