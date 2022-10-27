@@ -78,14 +78,12 @@ h2, h3 {
 #landing-image > picture > img {
     width: 100%;
     height: 100%;
-    display: block;
 }
 
 /* Home page - about us section */
 #about-us {
     text-align: center;
     max-width: 100%;
-    display: block;
     background-color: rgba(190,131,116,0.25);
     padding: 15px 10px;
     font-size: 150%;
@@ -112,8 +110,6 @@ h2, h3 {
     .split {
         display: flex;
         flex-direction: row-reverse;
-        position: relative;
-        clear: both;
         object-fit: fill;
     }
     
@@ -160,8 +156,6 @@ h2, h3 {
 /* Guide page - other factors section */
 #other-factors {
     margin: 15px 10px 10px;
-    clear: both;
-    position: relative;
 }
 
 #other-factors > div {
@@ -186,12 +180,12 @@ h2, h3 {
 /* Guide page - media query for diplaying the routines on screen sizes larger than 680px */
 @media screen and (min-width:680px) {
     #left-morning {
-        width: 47%;
+        width: 45%;
         float: left;
     } 
 
     #right-night {
-        width: 47%;
+        width: 45%;
         float: right;
     }
 }
@@ -265,7 +259,6 @@ h2, h3 {
     background-color: white;
     border: solid 2px #6a3929;
     color: #6a3929;
-    display: block;
 }
 
 .join:hover {
@@ -276,8 +269,6 @@ h2, h3 {
 /* Thankyou page */
 #message {
     text-align: center;
-    position: relative;
-    clear: both;
 }
 
 #message > h3 {
