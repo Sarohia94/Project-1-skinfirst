@@ -272,6 +272,7 @@ Thankyou page
 
 ### Code
 * Meta tag for http-equiv credited to my mentor [Chris Quinn](https://github.com/10xOXR) following mid project meeting.
+* How to make the footer stick to the bottom of the page credited to [DEV post](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14)
 
 ### Content
 * The content was written by the developer Amritpreet Sarohia.
