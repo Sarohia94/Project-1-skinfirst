@@ -189,7 +189,8 @@ The website was deployed to GitHub Pages as follows:
   1. Layout used for bigger screen sizes on home page looked a little awkward so we discussed using the mobile landing image for all screen sizes but image was too pixelated. Using flex box to create a 3 column view seemed to improve the layout structure for screen sizes up to 1440px.
   ![Issue with layout for bigger screen sizes](docs/testing/issues/issues6.png)
   2. Remove "/" infront of file path as relative path should be used for the images.
-  3. Add meta tag for http-equiv to thank you page to direct user automatically back to the home page after a set time. Mentor [Chris Quinn](https://github.com/10xOXR) has been credited for the code. 
+  3. Add meta tag for http-equiv to thank you page to direct user automatically back to the home page after a set time. Mentor [Chris Quinn](https://github.com/10xOXR) has been credited for the code. However doing so showed as an issue by lowering the lighthouse accessibility score. To combat this I extended the time from 10s to 30s to allow for more reading and decision making on how to navigate from the thankyou page.
+  ![Issue with lighthouse accessibility score following the include on the meta tag for http-equiv](docs/testing/issues/issues10.png)
 * Issues faced before submitting my project for review on slack:
   1. I have tested my website on samsung mobile, samsung internet and on desktop, on chrome and microsoft edge but need futher testing on different browsers.
 * Issues raised as part of feedback from the peer code review on slack:
@@ -241,21 +242,25 @@ No issues with the HTML pages or CSS:
   ![Sign up page to join the community](docs/testing/userstories/userstories5.png)
 
 * Frequent Visitor Goals
-* I want to be able to interact and help build the community by leaving my own tips and sharing information on skin wellness. This will be feature to add down the line to make the site more interactive. This can be in the form of a text area field or a separate page for a community forum section.
+  * I want to be able to interact and help build the community by leaving my own tips and sharing information on skin wellness. This will be feature to add down the line to make the site more interactive. This can be in the form of a text area field or a separate page for a community forum section.
 
 ### Lighthouse
-Index page 
-* [Lighthouse testing for mobile](docs/testing/lighthouse/lighthouseindexmobile.png)
-* [Lighthouse testing for desktop](docs/testing/lighthouse/lighthouseindexdesktop.png)
-Guide page
-* [Lighthouse testing for mobile](docs/testing/lighthouse/lighthouseguidemobile.png)
-* [Lighthouse testing for desktop](docs/testing/lighthouse/lighthouseguidedesktop.png)
-Signup page
-* [Lighthouse testing for mobile](docs/testing/lighthouse/lighthousesignupmobile.png)
-* [Lighthouse testing for desktop](docs/testing/lighthouse/lighthousesignupdesktop.png)
-Thankyou page 
-* [Lighthouse testing for mobile](docs/testing/lighthouse/lighthousethankyoumobile.png)
-* [Lighthouse testing for desktop](docs/testing/lighthouse/lighthousethankyoudesktop.png)
+Index page testing for mobile
+* ![Index page testing for mobile](docs/testing/lighthouse/lighthouseindexmobile.png)
+Index page testing for desktop
+* ![Index page testing for desktop](docs/testing/lighthouse/lighthouseindexdesktop.png)
+Guide page testing for mobile
+* ![Guide page testing for mobile](docs/testing/lighthouse/lighthouseguidemobile.png)
+Guide page testing for desktop
+* ![Guide page testing for desktop](docs/testing/lighthouse/lighthouseguidedesktop.png)
+Signup page testing for mobile
+* ![Signup page testing for mobile](docs/testing/lighthouse/lighthousesignupmobile.png)
+Signup page testing for desktop
+* ![Signup page testing for desktop](docs/testing/lighthouse/lighthousesignupdesktop.png)
+Thankyou page testing for mobile
+* ![Thankyou page testing for mobile](docs/testing/lighthouse/lighthousethankyoumobile.png)
+Thankyou page testing for desktop
+* ![Thankyou page testing for desktop](docs/testing/lighthouse/lighthousethankyoudesktop.png)
 
 ### Full Testing
 * Tested responsiveness with the different dimensions in dev tools and via [Responsive design checker](https://responsivedesignchecker.com/).
