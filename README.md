@@ -193,7 +193,13 @@ The website was deployed to GitHub Pages as follows:
 * Issues faced before submitting my project for review on slack:
   1. I have tested my website on samsung mobile, samsung internet and on desktop, on chrome and microsoft edge but need futher testing on different browsers.
 * Issues raised as part of feedback from the peer code review on slack:
-  1. TBC
+  1. The nav bar had a white background on all pages but the signup page. This was resolved after applying flex box to the body element. This was identified by [Lane-Sawyer Thompson](https://github.com/LaneSawyerT).
+  ![Issue with the nav bar on the signup page](docs/testing/issues/issues8.png)
+  2. Issue with day and night routine not being centered on bigger screen sizes, resulting in a larger gap on the right. This was resolved by floating left the morning routine and floating right the night routine, setting the width as 45%. This was identified by [Anya McDonald](https://github.com/anyahush).
+  ![Issue with day and night routine not being centered on bigger screen sizes](docs/testing/issues/issues9.png)
+  3. Issue with footer not sticking to the bottom of the page and as such leaving a gap. This was resolved by using flex box on the body and setting a margin top on the footer. The code for this was obtained from [here](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14). This was identified by [Anya McDonald](https://github.com/anyahush).
+  4. Issue with hover effect on social media icons where all icons react when switching between the links. This was identified by [Anya McDonald](https://github.com/anyahush).
+  ![Issue with the hover effect causing all social media icons to react when switching between them](docs/testing/issues/hovereffectissue.gif)
 * Final issues raised following the end project meeting with my mentor:
   1. TBC
 ### W3C Validator 
@@ -253,15 +259,11 @@ Thankyou page
 
 ### Full Testing
 * Tested responsiveness with the different dimensions in dev tools and via [Responsive design checker](https://responsivedesignchecker.com/).
-
 * Tested website on mobile, tablet, laptop and desktop.
-
 * Tested on Chrome, Samsung internet and Microsoft edge.
-
+* Tested via peer review on mobile with Safari and on desktop with Mozilla Firefox, thanks to [Lane-Sawyer Thompson](https://github.com/LaneSawyerT).
 * Tested nav links and logo link.
-
 * Tested social media link. They open on to a new page as expected.
-
 * Tested sign up form. Fields left blank will flag up when attempting to sign up.
 
 ---
@@ -285,4 +287,6 @@ Images used were obtained from the [Pexels](https://www.pexels.com/) website.
 Thank you to anyone taking the time to view my first project, to the Slack community, the tutors and the below individuals:
 * [Chris Quinn](https://github.com/10xOXR), my mentor. Thank you for your guidance and feedback.
 * [Kera Cudmore](https://github.com/kera-cudmore) for her README webinar and resources provided.
+* [Lane-Sawyer Thompson](https://github.com/LaneSawyerT) for his feedback on slack as part of the peer review.
+* [Anya McDonald](https://github.com/anyahush) for her feedback on slack as part of the peer review.
 * [Gemma Sayers](https://github.com/GJSayers) for her assistance on Slack.
