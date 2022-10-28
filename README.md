@@ -135,7 +135,7 @@ Wireframes were created for destop/tablet and mobile.
 * Thank You page
   * A message thanking the user for signing up with a note reiterating our websites intention and a 30 second timer with a button too, to direct them back to the home page.
 * Future features
-  * Responsible buying section on the guide page. This will provide information to the user on what to look out for when purchasing products. This is to promote users into thinking about their purchasing power. This goes hand in hand with the postive thinking the website aims to inspire with skin wellness. As such, this section would further this with the consideration of societal & environmental benefits of using certain acredited skin care products.
+  * Responsible buying section on the guide page. This will provide information to the user on what to look out for when purchasing products. This is to promote users into thinking about their purchasing power. This goes hand in hand with the postive thinking the website aims to inspire with skin wellness. As such, this section would further this with the consideration of societal & environmental benefits of using certain accredited skin care products.
   * Add links to the other factors section, making the text or icons clickable, to direct users to related articles or video content providing futher information on the benefits.
   * The sign up form can have a text box where the user can submit a query, comment or feedback. The other option to further this is to have a link to another page which acts as a interactive community forum for ideas to be shared and discussed amongst members.
   
