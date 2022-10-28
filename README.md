@@ -124,20 +124,20 @@ Wireframes were created for destop/tablet and mobile.
   * A footer centered at the bottom of all three pages with icon links to social media; Twitter, Facebook, Instagram & Youtube. The links open on to a new tab so the user does not leave the skinfirst website. As part of the intention for the website is to build a community, the social media links are important to encourage interaction. Hovering over the link increases the icon size to make it interactive.
 * Home page
   * About us section will provide information to the user about the purpose of the website, some context on skin care and what they can expect to learn.
-  * Image of a smiling woman (to the right on desktop/tablet and stacked on top on mobile) is used to set a warm, natural and welcoming aesthetic to the website. It also sets the tone on the feeling the website aims to inspire when visiting and thinking about skin wellness.
+  * Image of a smiling woman (to the right on desktop and stacked on top on mobile/tablet) is used to set a warm, natural and welcoming aesthetic to the website. It also sets the tone on the feeling the website aims to inspire when visiting and thinking about skin wellness.
   * Fun facts aside to provide some interesting skin related information.
 * Guide page
-  * Morning and night routine. This section will provide the user with an easy to follow guide for skin wellness with some rationale.
+  * Morning and night routine. This section will provide the user with an easy to follow guide for skin wellness, with some rationale.
   * Other factors section. This will provide the user with other factors to consider such as lifestyle changes to promote skin wellness.
 * Sign Up page
   * A reason on why the user will want to sign up, to be updated as we grow the website and to join the community which will later become an interactive forum with other members.
   * A sign up form, which will require the user to submit their full name and email address.
 * Thank You page
-  * A message thanking the user for signing up with a note reiterating our websites intention and a 10 second timer with a button too, to direct them back to the home page.
+  * A message thanking the user for signing up with a note reiterating our websites intention and a 30 second timer with a button too, to direct them back to the home page.
 * Future features
-  * Responsible buying section on the guide page. This will provide information to the user on what to look out for when purchasing products. This is to promote users into thinking about their purchasing power. This goes hand in hand with the postive thinking the website aims to inspire with skin wellness. As such, this section aims to further this with the consideration of enviornmental and social impact.
-  * Add links to the the other factors section, making the text or icons clickable to direct users to related articles or video content providing futher information on the benefits and positive impact on skin wellness.
-  * The sign up form can have a text box where the user can submit a query, comment or feedback. The other option to further this is to have a link to another page which acts as a interactive community forum for ideas to be shared and discussed among members.
+  * Responsible buying section on the guide page. This will provide information to the user on what to look out for when purchasing products. This is to promote users into thinking about their purchasing power. This goes hand in hand with the postive thinking the website aims to inspire with skin wellness. As such, this section would further this with the consideration of societal & environmental benefits of using certain acredited skin care products.
+  * Add links to the other factors section, making the text or icons clickable, to direct users to related articles or video content providing futher information on the benefits.
+  * The sign up form can have a text box where the user can submit a query, comment or feedback. The other option to further this is to have a link to another page which acts as a interactive community forum for ideas to be shared and discussed amongst members.
   
 ### Accessibility 
 The website achieves accessibility with:
@@ -188,18 +188,18 @@ The website was deployed to GitHub Pages as follows:
 * Issues raised in my mid project meeting with my mentor:
   1. Layout used for bigger screen sizes on home page looked a little awkward so we discussed using the mobile landing image for all screen sizes but image was too pixelated. Using flex box to create a 3 column view seemed to improve the layout structure for screen sizes up to 1440px.
   ![Issue with layout for bigger screen sizes](docs/testing/issues/issues6.png)
-  2. Remove "/" infront of file path as relative path should be used for the images.
-  3. Add meta tag for http-equiv to thank you page to direct user automatically back to the home page after a set time. Mentor [Chris Quinn](https://github.com/10xOXR) has been credited for the code. However doing so showed as an issue by lowering the lighthouse accessibility score. To combat this I extended the time from 10s to 30s to allow for more reading and decision making on how to navigate from the thankyou page. (see lighthouse section)
+  2. Remove "/" infront of the file paths, as relative path should be used for the images.
+  3. Add meta tag for http-equiv, to the thankyou page to direct the user automatically back to the home page after a set time. Mentor [Chris Quinn](https://github.com/10xOXR) has been credited for the code. However, doing so showed as an issue by lowering the lighthouse accessibility score. To combat this I extended the time from 10s to 30s to allow for more reading and decision making time for the user on how to navigate away from the thankyou page. There is also a note left on the thankyou page warning the user they will be directed to the home page in 30s.
   ![Issue with lighthouse accessibility score following the include on the meta tag for http-equiv](docs/testing/issues/issues10.png)
-* Issues faced before submitting my project for review on slack:
-  1. I have tested my website on samsung mobile, samsung internet and on desktop, on chrome and microsoft edge but need futher testing on different browsers.
+* Issues faced before submitting my project for review on Slack:
+  1. I have tested my website on mobile, tablet and desktop. I have tested on Samsung internet, Chrome and Microsoft Edge but need futher testing on different browsers.
 * Issues raised as part of feedback from the peer code review on slack:
   1. The nav bar had a white background on all pages but the signup page. This was resolved after applying flex box to the body element. This was identified by [Lane-Sawyer Thompson](https://github.com/LaneSawyerT).
   ![Issue with the nav bar on the signup page](docs/testing/issues/issues8.png)
   2. Issue with day and night routine not being centered on bigger screen sizes, resulting in a larger gap on the right. This was resolved by floating left the morning routine and floating right the night routine, setting the width as 45%. This was identified by [Anya McDonald](https://github.com/anyahush).
   ![Issue with day and night routine not being centered on bigger screen sizes](docs/testing/issues/issues9.png)
-  3. Issue with footer not sticking to the bottom of the page and as such leaving a gap. This was resolved by using flex box on the body and setting a margin top on the footer. The code for this was obtained from [here](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14). This was identified by [Anya McDonald](https://github.com/anyahush).
-  4. Issue with hover effect on social media icons where all icons react when switching between the links. I was unable to resolve this in time. This was identified by [Anya McDonald](https://github.com/anyahush).
+  3. Issue with the footer not sticking to the bottom of the page and as such leaving a gap. This was resolved by using flex box on the body and setting a margin top on the footer. The code for this was obtained from [here](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14). This was identified by [Anya McDonald](https://github.com/anyahush).
+  4. Issue with the hover effect on the social media icons. Where all icons would react when you are switching between the links. I have tried playing around with the code to target the icons only but I was unable to resolve this in time. This was identified by [Anya McDonald](https://github.com/anyahush).
   ![Issue with the hover effect causing all social media icons to react when switching between them](docs/testing/issues/hovereffectissue.gif)
 * Final issues raised following the end project meeting with my mentor:
   1. TBC
@@ -211,7 +211,7 @@ No issues with the HTML pages or CSS:
 * [thankyou.html](docs/testing/w3c/w3chtmlthankyou.png)
 * [css](docs/testing/w3c/w3ccss.png)
 ### Solved Bugs
-* Issues faced and resolved before my mid project meeting:
+Issues faced and resolved before my mid project meeting:
   1. Adding media queries to make website pages responsive. Initially started by building with the desktop view in mind so lost time when reworking to build mobile first as discussed with my mentor in our first project meeting.
   2. Struggled to make my landing images responsive and proportional. Using specificity on the image tag and setting the height, width and object-fit seemed to resolve the issue.
   ![Issue with the landing image not being in proportion to the about us section](docs/testing/issues/issues1.png)
@@ -270,6 +270,7 @@ No issues with the HTML pages or CSS:
 * Tested nav links and logo link.
 * Tested social media link. They open on to a new page as expected.
 * Tested sign up form. Fields left blank will flag up when attempting to sign up.
+* Tested thankyou page. No action for 30s will automatically redirect you back to the home page. Clicking on the button before the timer will also send you back to the home page.
 
 ---
 
