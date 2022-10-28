@@ -9,6 +9,7 @@
 }
 
 /* Body */
+/* Code to make footer stick to bottom from https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14*/
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 350;
@@ -296,6 +297,7 @@ h2, h3 {
 }
 
 /* Footer section */
+/* Code to make footer stick to bottom from https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14*/
 footer {
     background-color: rgba(172, 175, 174,0.25);
     margin-top: auto;
