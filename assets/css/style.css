@@ -153,6 +153,14 @@ h2, h3 {
     background-color: white;
 }
 
+#left-morning h2 {
+    text-align: center;
+}
+
+#right-night h2 {
+    text-align: center;
+}
+
 /* Guide page - other factors section */
 #other-factors {
     margin: 15px 10px 10px;
