@@ -308,11 +308,13 @@ footer {
     display: inline;
 }
 
+/* Code for transition effect credited to mentor Chris Quinn */
 .social-media i {
     font-size: 150%;
     margin: 1%;
     padding: 5%;
     color: #6a3929;
+    transition: 0.3s ease-in-out;
 }
 
 .social-media i:hover {
