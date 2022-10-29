@@ -196,6 +196,9 @@ The website achieves accessibility with:
   ![Issue with the hover effect causing all social media icons to react when switching between them](docs/testing/issues/hovereffectissue.gif)
 * Final issues raised following the end project meeting with my mentor:
   1. Mentor [Chris Quinn](https://github.com/10xOXR) suggested that a Favicon icon would be a nice addition to the webpage. This was applied by creating the design and following the instructions from [Favicon.io](https://favicon.io/favicon-generator/) website.
+  2. My mentor suggested applying a background colour to the morning and night routine. This was to provide some contrast as white on white can look quite sharp to the eyes in terms of user experience. 
+  3. My mentor advised that the deployment section should follow after the testing section on the README so this was amended. He also suggested including instructions on local development as it will help as I progress through the course. 
+  4. My mentor advised it would be a nice addition to add evidence of my manual testing.
 
 ### W3C Validator 
 No issues with the HTML pages or CSS:
