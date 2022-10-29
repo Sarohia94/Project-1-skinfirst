@@ -150,7 +150,7 @@ h2, h3 {
     margin: 15px 10px 5px;
     padding: 8px 4px 2px;
     border: outset;
-    background-color: white;
+    background-color: rgba(172, 175, 174, 0.15);
 }
 
 #left-morning h2 {
@@ -225,7 +225,7 @@ h2, h3 {
 .signup {
     margin: 50px 5% 0 0;
     color: #1a110e;
-    background-color: rgba(26,17,14,0.15);
+    background-color: rgba(26, 17, 14, 0.15);
     max-width: 500px;
     position: absolute;
     left: 5%;
@@ -307,7 +307,7 @@ h2, h3 {
 /* Footer section */
 /* Code to make footer stick to bottom from https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14*/
 footer {
-    background-color: rgba(172, 175, 174,0.25);
+    background-color: rgba(172, 175, 174, 0.25);
     margin-top: auto;
     text-align: center;
 }
