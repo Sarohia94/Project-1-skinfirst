@@ -296,6 +296,7 @@ The website was deployed to GitHub Pages as follows:
 ### Code
 * Meta tag for http-equiv credited to my mentor [Chris Quinn](https://github.com/10xOXR) following mid project meeting.
 * How to make the footer stick to the bottom of the page credited to [DEV](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14) post.
+* Transition effect styling to the social media icons credited to my mentor [Chris Quinn](https://github.com/10xOXR) following end project meeting.
 
 ### Content
 * The content was written by the developer Amritpreet Sarohia.
