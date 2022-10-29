@@ -51,6 +51,7 @@ There is an about us section, a daily routine guide and a sign up form which lin
 - - -
 
 ## User Experience (UX)
+
 ### Initial Discussion
 
 The skinfirst website looks to provide users with a guide, highlighting the importance of skin wellness and a simple to follow routine. The website will provide users with the option to sign up to join the community and be updated as we grow the website. 
@@ -91,6 +92,7 @@ The skinfirst website looks to provide users with a guide, highlighting the impo
 - - -
 
 ## Design
+
 ### Colour Scheme
 This was obtained from the [Coolors](https://coolors.co/) website.
 ![Colour palette for the skinfirst website](docs/colourpalette.png)
@@ -153,6 +155,7 @@ The website achieves accessibility with:
 ---
 
 ## Technologies Used
+
 ### Languages Used
 * HTML
 * CSS
@@ -171,7 +174,7 @@ The website achieves accessibility with:
 * Hover.css - to make the nav bar, footer links and the sign up button interactive.
 * [Tiny PNG](https://tinypng.com/) - to compress images.
 * [Responsive design checker](https://responsivedesignchecker.com/) - to check responsive design for a variety of screen sizes.
-
+* [Favicon.io](https://favicon.io/favicon-generator/) - to creat favicon icon for the website.
 ---
 
 ## Testing 
@@ -189,10 +192,11 @@ The website achieves accessibility with:
   2. Issue with day and night routine not being centered on bigger screen sizes, resulting in a larger gap on the right. This was resolved by floating left the morning routine and floating right the night routine, setting the width as 45%. This was identified by [Anya McDonald](https://github.com/anyahush).
   ![Issue with day and night routine not being centered on bigger screen sizes](docs/testing/issues/issues9.png)
   3. Issue with the footer not sticking to the bottom of the page and as such leaving a gap. This was resolved by using flex box on the body and setting a margin top on the footer. The code for this was obtained from [here](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14). This was identified by [Anya McDonald](https://github.com/anyahush).
-  4. Issue with the hover effect on the social media icons. Where all icons would react when you are switching between the links. I have tried playing around with the code to target the icons only but I was unable to resolve this in time. This was identified by [Anya McDonald](https://github.com/anyahush).
+  4. Issue with the hover effect on the social media icons. Where all icons would react when you are switching between the links. This was identified by [Anya McDonald](https://github.com/anyahush). I had tried playing around with the code to target the icons but I was unable to resolve this. Mentor [Chris Quinn](https://github.com/10xOXR), suggested applying the transition styling with 0.3s and ease-in-out. This seemed to have improved the jumping effect on the icons.
   ![Issue with the hover effect causing all social media icons to react when switching between them](docs/testing/issues/hovereffectissue.gif)
 * Final issues raised following the end project meeting with my mentor:
-  1. TBC
+  1. Mentor [Chris Quinn](https://github.com/10xOXR) suggested that a Favicon icon would be a nice addition to the webpage. This was applied by creating the design and following the instructions from [Favicon.io](https://favicon.io/favicon-generator/) website.
+
 ### W3C Validator 
 No issues with the HTML pages or CSS:
 * [index.html](docs/testing/w3c/w3chtmlindex.png)
@@ -200,6 +204,7 @@ No issues with the HTML pages or CSS:
 * [signup.html](docs/testing/w3c/w3chtmlsignup.png)
 * [thankyou.html](docs/testing/w3c/w3chtmlthankyou.png)
 * [css](docs/testing/w3c/w3ccss.png)
+
 ### Solved Bugs
 Issues faced and resolved before my mid project meeting:
   1. Adding media queries to make website pages responsive. Initially started by building with the desktop view in mind so lost time when reworking to build mobile first as discussed with my mentor in our first project meeting.
@@ -212,6 +217,7 @@ Issues faced and resolved before my mid project meeting:
   ![Issue with color contrast as evidenced by Coolers](docs/testing/issues/issues4.png)
   5. Below error message appeared due to an alt attribute being included in the source tag which was not required. Looking in to this further with tutor [Gemma Sayers](https://github.com/GJSayers) on Slack it seems for now nothing more can be done for accessibility using the source tag.
   ![Issue with using an unrequired alt attribute on the source tag](docs/testing/issues/issues5.png)
+
 ### Known Bugs
   1. On screen sizes 1600px and upwards there is increasingly free space below the about us and fun facts aside. Another media query can be added to reconfigure the layout or add further content in these sections such as videos. Due to time constaints this may be something to be worked on and improved later.
   ![Issue with layout and free space on screen sizes larger than 1600px](docs/testing/issues/issues7.png)
@@ -297,6 +303,7 @@ The website was deployed to GitHub Pages as follows:
 * Meta tag for http-equiv credited to my mentor [Chris Quinn](https://github.com/10xOXR) following mid project meeting.
 * How to make the footer stick to the bottom of the page credited to [DEV](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14) post.
 * Transition effect styling to the social media icons credited to my mentor [Chris Quinn](https://github.com/10xOXR) following end project meeting.
+* Favicon icon and link tags code from [Favicon.io](https://favicon.io/favicon-generator/) webiste.
 
 ### Content
 * The content was written by the developer Amritpreet Sarohia.
