@@ -252,10 +252,10 @@ Issues faced and resolved before my mid project meeting:
 * Thankyou page testing for desktop
 ![Thankyou page testing for desktop](docs/testing/lighthouse/lighthousethankyoudesktop.png)
 
-### Full Testing
+### Manual Testing
 * Tested responsiveness with the different dimensions in dev tools and via [Responsive design checker](https://responsivedesignchecker.com/).
-* Tested website on mobile, tablet, laptop and desktop.
-* Tested on Chrome, Samsung internet and Microsoft edge.
+* Tested website on mobile with [Chrome]() & [Samsung internet]()
+* Tested on tablet, laptop [Microsoft Edge]() and desktop.
 * Tested via peer review on mobile with Safari and on desktop with Mozilla Firefox, thanks to [Lane-Sawyer Thompson](https://github.com/LaneSawyerT).
 * Tested nav links and logo link.
 * Tested social media link. They open on to a new page as expected.
