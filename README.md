@@ -34,7 +34,7 @@ There is an about us section, a daily routine guide and a sign up form which lin
     * [Books Page](#Books-Page)
     * [Contact Us Page](#Contact-Us-Page)
     * [Thank You Page](#Thank-You-Page)
-  * [Full Testing](#Full-Testing)
+  * [Manual Testing](#Manual-Testing)
 
   * [Deployment](#Deployment)
     * [Local Deployment](#Local-Deployment)
