@@ -254,8 +254,8 @@ Issues faced and resolved before my mid project meeting:
 
 ### Manual Testing
 * Tested responsiveness with the different dimensions in dev tools and via [Responsive design checker](https://responsivedesignchecker.com/).
-* Tested website on mobile with [Chrome]() & [Samsung internet]()
-* Tested on tablet, laptop [Microsoft Edge]() and desktop.
+* Tested website on mobile with [Chrome](docs/testing/manualtesting/chromemobile.jpg) & [Samsung internet](docs/testing/manualtesting/samsunginternetmobile.jpg)
+* Tested on tablet with [Amazon Silk browser](docs/testing/manualtesting/amazonsilkbrowsertablet.png), laptop with [Microsoft Edge](docs/testing/manualtesting/microsoftedgelaptop.png) and desktop with [Microsoft Edge](docs/testing/manualtesting/microsoftedgedesktop.png).
 * Tested via peer review on mobile with Safari and on desktop with Mozilla Firefox, thanks to [Lane-Sawyer Thompson](https://github.com/LaneSawyerT).
 * Tested nav links and logo link.
 * Tested social media link. They open on to a new page as expected.
