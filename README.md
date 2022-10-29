@@ -30,20 +30,14 @@ There is an about us section, a daily routine guide and a sign up form which lin
   * [Known Bugs](#Known-Bugs)
   * [Testing User Stories](#Testing-User-Stories)
   * [Lighthouse](#Lighthouse)
-    * [Index Page](#Index-Page)
-    * [Books Page](#Books-Page)
-    * [Contact Us Page](#Contact-Us-Page)
-    * [Thank You Page](#Thank-You-Page)
   * [Manual Testing](#Manual-Testing)
 
   * [Deployment](#Deployment)
     * [Local Deployment](#Local-Deployment)
-      * [How to Clone](How-to-Clone)
-      * [How to Fork](How-to-fork)
     * [Remote Deployment](#Remote-Deployment)
   
 * [Credits](#Credits)
-  * [Code Used](#Code-Used)
+  * [Code](#Code)
   * [Content](#Content)
   * [Media](#Media)
   * [Acknowledgments](#Acknowledgments)
@@ -119,9 +113,7 @@ Wireframes were created for destop/tablet and mobile.
 
 * Sign Up page wireframe can be found here for [desktop/tablet](docs/wireframes/signupdesktop.png) and here for [mobile](docs/wireframes/signupmobile.png).
 
----
-
-## Features
+### Features
 
 * Responsive on a range of device sizes
 * All pages on the website have:
@@ -152,7 +144,7 @@ The website achieves accessibility with:
 * Colour contrast, checked and sufficient
 * Marking current page as current for screen readers
 
----
+- - -
 
 ## Technologies Used
 
@@ -175,18 +167,19 @@ The website achieves accessibility with:
 * [Tiny PNG](https://tinypng.com/) - to compress images.
 * [Responsive design checker](https://responsivedesignchecker.com/) - to check responsive design for a variety of screen sizes.
 * [Favicon.io](https://favicon.io/favicon-generator/) - to creat favicon icon for the website.
----
+
+- - -
 
 ## Testing 
-* Issues raised in my mid project meeting with my mentor:
+Issues raised in my mid project meeting with my mentor:
   1. Layout used for bigger screen sizes on home page looked a little awkward so we discussed using the mobile landing image for all screen sizes but image was too pixelated. Using flex box to create a 3 column view seemed to improve the layout structure for screen sizes up to 1440px.
   ![Issue with layout for bigger screen sizes](docs/testing/issues/issues6.png)
   2. Remove "/" infront of the file paths, as relative path should be used for the images.
   3. Add meta tag for http-equiv, to the thankyou page to direct the user automatically back to the home page after a set time. Mentor [Chris Quinn](https://github.com/10xOXR) has been credited for the code. However, doing so showed as an issue by lowering the lighthouse accessibility score. To combat this I extended the time from 10s to 30s to allow for more reading and decision making time for the user on how to navigate away from the thankyou page. There is also a note left on the thankyou page warning the user they will be directed to the home page in 30s.
   ![Issue with lighthouse accessibility score following the include on the meta tag for http-equiv](docs/testing/issues/issues10.png)
-* Issues faced before submitting my project for review on Slack:
+Issues faced before submitting my project for review on Slack:
   1. I have tested my website on mobile, tablet and desktop. I have tested on Samsung internet, Chrome and Microsoft Edge but need futher testing on different browsers.
-* Issues raised as part of feedback from the peer code review on slack:
+Issues raised as part of feedback from the peer code review on slack:
   1. The nav bar had a white background on all pages but the signup page. This was resolved after applying flex box to the body element. This was identified by [Lane-Sawyer Thompson](https://github.com/LaneSawyerT).
   ![Issue with the nav bar on the signup page](docs/testing/issues/issues8.png)
   2. Issue with day and night routine not being centered on bigger screen sizes, resulting in a larger gap on the right. This was resolved by floating left the morning routine and floating right the night routine, setting the width as 45%. This was identified by [Anya McDonald](https://github.com/anyahush).
@@ -194,7 +187,7 @@ The website achieves accessibility with:
   3. Issue with the footer not sticking to the bottom of the page and as such leaving a gap. This was resolved by using flex box on the body and setting a margin top on the footer. The code for this was obtained from [here](https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14). This was identified by [Anya McDonald](https://github.com/anyahush).
   4. Issue with the hover effect on the social media icons. Where all icons would react when you are switching between the links. This was identified by [Anya McDonald](https://github.com/anyahush). I had tried playing around with the code to target the icons but I was unable to resolve this. Mentor [Chris Quinn](https://github.com/10xOXR), suggested applying the transition styling with 0.3s and ease-in-out. This seemed to have improved the jumping effect on the icons.
   ![Issue with the hover effect causing all social media icons to react when switching between them](docs/testing/issues/hovereffectissue.gif)
-* Final issues raised following the end project meeting with my mentor:
+Final issues raised following the end project meeting with my mentor:
   1. Mentor [Chris Quinn](https://github.com/10xOXR) suggested that a Favicon icon would be a nice addition to the webpage. This was applied by creating the design and following the instructions from [Favicon.io](https://favicon.io/favicon-generator/) website.
   2. My mentor suggested applying a background colour to the morning and night routine. This was to provide some contrast as white on white can look quite sharp to the eyes in terms of user experience. 
   3. My mentor advised that the deployment section should follow after the testing section on the README so this was amended. He also suggested including instructions on local development as it will help as I progress through the course. 
@@ -271,7 +264,7 @@ Issues faced and resolved before my mid project meeting:
 * Tested sign up form. Fields left blank will flag up when attempting to sign up.
 * Tested thankyou page. No action for 30s will automatically redirect you back to the home page. Clicking on the button before the timer will also send you back to the home page.
 
----
+- - -
 
 ## Deployment 
 
@@ -298,7 +291,7 @@ The website was deployed to GitHub Pages as follows:
 6. Click "Save" which will then refresh the page
 7. It might take a few mins before you can refresh and view the link to the site published
 
----
+- - -
 
 ## Credits
 
