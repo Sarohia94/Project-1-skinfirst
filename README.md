@@ -24,9 +24,6 @@ There is an about us section, a daily routine guide and a sign up form which lin
   * [Languages Used](#Languages-Used)
   * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 
-* [Deployment](#Deployment)
-  * [GitHub Pages](#GitHub-Pages)
-
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
   * [Solved Bugs](#Solved-Bugs)
@@ -38,6 +35,12 @@ There is an about us section, a daily routine guide and a sign up form which lin
     * [Contact Us Page](#Contact-Us-Page)
     * [Thank You Page](#Thank-You-Page)
   * [Full Testing](#Full-Testing)
+
+  * [Deployment](#Deployment)
+    * [Local Deployment](#Local-Deployment)
+      * [How to Clone](How-to-Clone)
+      * [How to Fork](How-to-fork)
+    * [Remote Deployment](#Remote-Deployment)
   
 * [Credits](#Credits)
   * [Code Used](#Code-Used)
@@ -171,19 +174,6 @@ The website achieves accessibility with:
 
 ---
 
-## Deployment 
-### GitHub Pages
-The website was deployed to GitHub Pages as follows:
-1. Log in to GitHub
-2. Click on the "Settings" link for this Repository
-3. Click on the "Pages" link on the left hand side of the page
-4. Under "Source" select "Deploy from branch" from the dropdown
-5. Under "Branch" select "main" from the dropdown
-6. Click "Save" which will then refresh the page
-7. It might take a few mins before you can refresh and view the link to the site published
-
----
-
 ## Testing 
 * Issues raised in my mid project meeting with my mentor:
   1. Layout used for bigger screen sizes on home page looked a little awkward so we discussed using the mobile landing image for all screen sizes but image was too pixelated. Using flex box to create a 3 column view seemed to improve the layout structure for screen sizes up to 1440px.
@@ -271,6 +261,33 @@ Issues faced and resolved before my mid project meeting:
 * Tested social media link. They open on to a new page as expected.
 * Tested sign up form. Fields left blank will flag up when attempting to sign up.
 * Tested thankyou page. No action for 30s will automatically redirect you back to the home page. Clicking on the button before the timer will also send you back to the home page.
+
+---
+
+## Deployment 
+
+### Local Deployment
+
+#### How to Clone
+1. Sign up or log in to GitHub
+2. Go to the repository https://github.com/Sarohia94/Project-1-skinfirst 
+3. Go to the code dropdown and select how you'd like clone and copy the link provided
+4. Go to the new repo and enter in your workspace terminal, "git clone" followed by the link copied
+
+#### How to Fork
+1. Sign up or log in to GitHub
+2. Go to the repository https://github.com/Sarohia94/Project-1-skinfirst 
+3. Click on the fork button towards the top right of the page 
+
+### Remote Deployment
+The website was deployed to GitHub Pages as follows:
+1. Log in to GitHub
+2. Assuming you have cloned or forked the repository, go on the "Settings" link for this repository
+3. Click on the "Pages" link on the left hand side of the page
+4. Under "Source" select "Deploy from branch" from the dropdown
+5. Under "Branch" select "main" from the dropdown
+6. Click "Save" which will then refresh the page
+7. It might take a few mins before you can refresh and view the link to the site published
 
 ---
 
